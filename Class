@@ -5,124 +5,120 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 波士顿(感谢关注youtube：8度科技), server: 173.237.207.44, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 捷克(感谢关注youtube：8度科技), server: 89.187.168.46, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (Youtube频道：工具大师！), server: 196.244.191.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 瑞典 (感谢关注youtube：8度科技), server: 196.244.191.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技), server: 196.244.191.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: (感谢关注youtube：8度科技) 2, server: 86.106.137.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 3, server: 154.16.93.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 4, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 5, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 6, server: 202.143.110.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 7, server: 185.124.240.151, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 8, server: 45.125.247.155, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 9, server: 45.129.3.91, port: 12028, type: ss, cipher: aes-256-gcm, password: 8FXQ8YavBIcb}
+  - {name: (感谢关注youtube：8度科技), server: 196.244.191.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 2, server: 196.244.191.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: (感谢关注youtube：8度科技) 3, server: 86.106.137.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 4, server: 154.16.93.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 5, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 6, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 7, server: 202.143.110.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 8, server: 185.124.240.151, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 9, server: 45.125.247.155, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 10, server: 45.129.3.91, port: 12028, type: ss, cipher: aes-256-gcm, password: 8FXQ8YavBIcb}
+  - {name: (感谢关注youtube：8度科技) 11, server: 154.16.93.51, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: (感谢关注youtube：8度科技) 12, server: 91.90.123.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: (感谢关注youtube：8度科技) 13, server: 91.90.123.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 14, server: 5.157.13.99, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: (感谢关注youtube：8度科技) 15, server: 193.29.106.59, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 16, server: 172.98.78.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 17, server: 91.90.123.171, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: (感谢关注youtube：8度科技) 18, server: 91.90.123.171, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: (感谢关注youtube：8度科技) 19, server: 196.244.191.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 20, server: 23.239.2.128, port: 14482, type: ss, cipher: aes-256-gcm, password: b738FrNLXhB0}
+  - {name: (感谢关注youtube：8度科技) 21, server: 5.133.8.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 22, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 23, server: 37.120.148.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 24, server: 194.87.215.57, port: 17219, type: vmess, uuid: b3c1db3d-44df-42ca-8781-10eb527a8417, alterId: 0, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 25, server: 107.174.20.130, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 26, server: 91.90.123.171, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: (感谢关注youtube：8度科技) 27, server: 91.90.123.171, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (感谢关注youtube：8度科技) 28, server: 156.146.62.54, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 29, server: 180.149.228.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 30, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (感谢关注youtube：8度科技) 31, server: ss-03.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub}
+  - {name: (感谢关注youtube：8度科技) 32, server: ss-04.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB}
+  - {name: (感谢关注youtube：8度科技) 33, server: ss-05.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub}
+  - {name: (感谢关注youtube：8度科技) 34, server: 185.174.159.51, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: (感谢关注youtube：8度科技) 35, server: zhongzhuangazhk2.xiaobaiyun.me, port: 800, type: vmess, uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: els.xiaobaiyun.me}}
+  - {name: (感谢关注youtube：8度科技) 36, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: (感谢关注youtube：8度科技) 37, server: nn-ssr35.feiclouddd.me, port: 443, type: vmess, uuid: 6dea6e87-c066-43a9-97e0-9e287374653a, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfsaaa, ws-headers: {Host: nn-ssr35.feiclouddd.me}}
+  - {name: (感谢关注youtube：8度科技) 38, server: free.milagropets.tech, port: 80, type: vmess, uuid: fe4b09d6-8af6-33a2-8340-d3539f8c8a4c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ray, ws-headers: {Host: free.milagropets.tech}}
+  - {name: (感谢关注youtube：8度科技) 39, server: 91.205.230.168, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 40, server: 212.102.44.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 41, server: 91.90.123.171, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: (感谢关注youtube：8度科技) 42, server: 91.90.123.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 43, server: 91.90.123.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: (感谢关注youtube：8度科技) 44, server: 91.90.123.171, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: (感谢关注youtube：8度科技) 45, server: 91.90.123.171, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: (感谢关注youtube：8度科技) 46, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (感谢关注youtube：8度科技) 47, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (感谢关注youtube：8度科技) 48, server: 194.110.115.75, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 49, server: 194.110.115.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 50, server: 91.90.123.171, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: (感谢关注youtube：8度科技) 51, server: 91.90.123.171, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: (感谢关注youtube：8度科技) 52, server: 91.90.123.171, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (感谢关注youtube：8度科技) 53, server: 89.238.130.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 54, server: 217.138.222.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 55, server: 91.90.123.171, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (感谢关注youtube：8度科技) 56, server: 91.90.123.171, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: (感谢关注youtube：8度科技) 57, server: 217.138.222.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: (感谢关注youtube：8度科技) 58, server: 183.232.149.198, port: 11558, type: vmess, uuid: 15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: sg1322.azzico.pw}}
+  - {name: (感谢关注youtube：8度科技) 59, server: 91.206.168.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 60, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 61, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: (感谢关注youtube：8度科技)), server: 5.188.3.95, port: 13247, type: ss, cipher: aes-256-gcm, password: I5YtUo2riBjx}
-  - {name: (感谢关注youtube：8度科技) 10, server: 154.16.93.51, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (感谢关注youtube：8度科技) 11, server: 91.90.123.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (感谢关注youtube：8度科技) 12, server: 91.90.123.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 13, server: 5.157.13.99, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (感谢关注youtube：8度科技) 14, server: 193.29.106.59, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 15, server: 172.98.78.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 16, server: 91.90.123.171, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: (感谢关注youtube：8度科技) 17, server: 91.90.123.171, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: (感谢关注youtube：8度科技) 18, server: 196.244.191.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 19, server: 23.239.2.128, port: 14482, type: ss, cipher: aes-256-gcm, password: b738FrNLXhB0}
-  - {name: (感谢关注youtube：8度科技) 20, server: 5.133.8.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 21, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 22, server: 37.120.148.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 23, server: 194.87.215.57, port: 17219, type: vmess, uuid: b3c1db3d-44df-42ca-8781-10eb527a8417, alterId: 0, cipher: auto, tls: false}
-  - {name: (感谢关注youtube：8度科技) 24, server: 107.174.20.130, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 25, server: 91.90.123.171, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: (感谢关注youtube：8度科技) 26, server: 91.90.123.171, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: (感谢关注youtube：8度科技) 27, server: 156.146.62.54, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 28, server: 180.149.228.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 29, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
   - {name: 🇨🇳 CN_57(感谢关注youtube：8度科技), server: 116.163.14.21, port: 20007, type: vmess, uuid: ed085b7e-21b2-4e44-82c7-574b532c1b3d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 116.163.14.21}}
   - {name: 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技), server: jiangmen.cm.data2china.com, port: 21027, type: vmess, uuid: ed085b7e-21b2-4e44-82c7-574b532c1b3d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: jiangmen.cm.data2china.com}}
   - {name: 🇭🇰 HK_132(感谢关注youtube：8度科技), server: 23.99.98.201, port: 817, type: vmess, uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: mgalsj.xiaobaiyun.me}}
   - {name: 🇯🇵 JP_1540(感谢关注youtube：8度科技), server: 13.208.248.208, port: 35105, type: vmess, uuid: 6914f4cc-fa4b-4d5e-9a77-d6f8ea5e2f34, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 13.208.248.208}}
-  - {name: 🇮🇪 爱尔兰(感谢关注youtube：8度科技), server: 217.138.222.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇫🇮 芬兰(感谢关注youtube：8度科技), server: 196.244.191.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇲 美国(感谢关注youtube：8度科技), server: 104.16.181.15, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: (感谢关注youtube：8度科技) 30, server: ss-03.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub}
-  - {name: (感谢关注youtube：8度科技) 31, server: ss-04.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: t.me/SSRSUB}
-  - {name: (感谢关注youtube：8度科技) 32, server: ss-05.ssrsub.one, port: 152, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub}
   - {name: 阿尔巴尼亚(感谢关注youtube：8度科技), server: 31.171.153.163, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 阿尔巴尼亚(感谢关注youtube：8度科技) 2, server: 31.171.154.221, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 阿尔巴尼亚(感谢关注youtube：8度科技) 3, server: 31.171.154.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 阿尔巴尼亚(感谢关注youtube：8度科技) 4, server: 31.171.153.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇪 爱尔兰(感谢关注youtube：8度科技), server: 217.138.222.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
   - {name: 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2, server: 5.157.13.99, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3, server: 5.157.13.101, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 爱沙尼亚(感谢关注youtube：8度科技), server: 185.174.159.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 波士顿(感谢关注youtube：8度科技), server: 173.237.207.44, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技), server: 37.120.148.227, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇷🇺 俄罗斯(感谢关注youtube：8度科技), server: 185.174.159.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 33, server: 185.174.159.51, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢关注youtube：8度科技) 34, server: zhongzhuangazhk2.xiaobaiyun.me, port: 800, type: vmess, uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: els.xiaobaiyun.me}}
   - {name: 🇫🇷 法国(感谢关注youtube：8度科技), server: 185.108.106.188, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 35, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 罗马(欢迎订阅Youtube破解资源君), server: 89.45.7.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(欢迎订阅Youtube破解资源君) 2, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 罗马(欢迎订阅Youtube破解资源君) 3, server: 193.29.107.221, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇫🇮 芬兰(感谢关注youtube：8度科技), server: 196.244.191.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 捷克(感谢关注youtube：8度科技), server: 89.187.168.46, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 62, server: 89.45.7.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 63, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 64, server: 193.29.107.221, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 🇷🇴 罗马尼亚(感谢关注youtube：8度科技), server: 86.106.137.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技), server: 104.16.181.15, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
   - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 2, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 3, server: 212.102.44.96, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 4, server: 172.98.75.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 5, server: 143.244.42.69, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 6, server: 156.146.62.54, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 7, server: 104.244.210.139, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 美国(Youtube频道：工具大师！), server: 192.40.59.227, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 8, server: 84.17.35.108, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 9, server: 212.102.44.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 10, server: 172.98.78.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 11, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 12, server: 107.174.20.130, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 13, server: 98.142.220.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君), server: nn-ssr35.feiclouddd.me, port: 443, type: vmess, uuid: 6dea6e87-c066-43a9-97e0-9e287374653a, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /sadfsaaa, ws-headers: {Host: nn-ssr35.feiclouddd.me}}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2, server: 185.242.5.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3, server: qq1.feiclouddd.me, port: 443, type: vmess, uuid: 3621eb66-1049-4e86-b0e3-d1643ccacd7c, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1.feiclouddd.me}}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4, server: nn-ssr15.feiclouddd.me, port: 443, type: vmess, uuid: c6b48afa-5b9c-44ab-8774-768e0a7b16c3, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdhdfsgh, ws-headers: {Host: nn-ssr15.feiclouddd.me}}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5, server: nn-ssr10.feiclouddd.me, port: 443, type: vmess, uuid: 293c9602-981f-4766-bb56-7bebb84da721, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /fgdfdsg, ws-headers: {Host: nn-ssr10.feiclouddd.me}}
-  - {name: 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6, server: free.milagropets.tech, port: 80, type: vmess, uuid: fe4b09d6-8af6-33a2-8340-d3539f8c8a4c, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /ray, ws-headers: {Host: free.milagropets.tech}}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 8, server: 192.40.59.227, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 9, server: 84.17.35.108, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 10, server: 212.102.44.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 11, server: 172.98.78.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 12, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 13, server: 107.174.20.130, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 14, server: 98.142.220.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 15, server: 185.242.5.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 16, server: qq1.feiclouddd.me, port: 443, type: vmess, uuid: 3621eb66-1049-4e86-b0e3-d1643ccacd7c, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1.feiclouddd.me}}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 17, server: nn-ssr15.feiclouddd.me, port: 443, type: vmess, uuid: c6b48afa-5b9c-44ab-8774-768e0a7b16c3, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /asdhdfsgh, ws-headers: {Host: nn-ssr15.feiclouddd.me}}
+  - {name: 🇺🇲 美国(感谢关注youtube：8度科技) 18, server: nn-ssr10.feiclouddd.me, port: 443, type: vmess, uuid: 293c9602-981f-4766-bb56-7bebb84da721, alterId: 60, cipher: auto, tls: true, network: ws, ws-path: /fgdfdsg, ws-headers: {Host: nn-ssr10.feiclouddd.me}}
   - {name: 🇿🇦 南非(感谢关注youtube：8度科技), server: 154.16.93.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 36, server: 91.205.230.168, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 37, server: 212.102.44.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 38, server: 91.90.123.171, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: (感谢关注youtube：8度科技) 39, server: 91.90.123.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 40, server: 91.90.123.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (感谢关注youtube：8度科技) 41, server: 91.90.123.171, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢关注youtube：8度科技) 42, server: 91.90.123.171, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: (感谢关注youtube：8度科技) 43, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: (感谢关注youtube：8度科技) 44, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: (感谢关注youtube：8度科技) 45, server: 194.110.115.75, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 46, server: 194.110.115.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 47, server: 91.90.123.171, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: (感谢关注youtube：8度科技) 48, server: 91.90.123.171, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: (感谢关注youtube：8度科技) 49, server: 91.90.123.171, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: (感谢关注youtube：8度科技) 50, server: 89.238.130.197, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 51, server: 217.138.222.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 52, server: 91.90.123.171, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: (感谢关注youtube：8度科技) 53, server: 91.90.123.171, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: (感谢关注youtube：8度科技) 54, server: 217.138.222.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 瑞典 (感谢关注youtube：8度科技), server: 196.244.191.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 西班牙(感谢关注youtube：8度科技), server: 37.120.148.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 55, server: 183.232.149.198, port: 11558, type: vmess, uuid: 15a76c75-da8a-3de2-bdc2-3bbd389d7ee1, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /video, ws-headers: {Host: sg1322.azzico.pw}}
-  - {name: (感谢关注youtube：8度科技) 56, server: 91.206.168.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇬🇧 英国(感谢关注youtube：8度科技), server: 185.108.105.182, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇬🇧 英国(感谢关注youtube：8度科技) 2, server: 195.181.171.241, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 🇬🇧 英国(感谢关注youtube：8度科技) 3, server: 195.181.171.241, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇬🇧 英国(欢迎订阅Youtube破解资源君), server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇬🇧 英国(欢迎订阅Youtube破解资源君) 2, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 波士顿(感谢关注youtube：8度科技)
-      - 捷克(感谢关注youtube：8度科技)
-      - (Youtube频道：工具大师！)
-      - 瑞典 (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 3
@@ -132,7 +128,6 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 7
       - (感谢关注youtube：8度科技) 8
       - (感谢关注youtube：8度科技) 9
-      - (感谢关注youtube：8度科技))
       - (感谢关注youtube：8度科技) 10
       - (感谢关注youtube：8度科技) 11
       - (感谢关注youtube：8度科技) 12
@@ -153,53 +148,12 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 27
       - (感谢关注youtube：8度科技) 28
       - (感谢关注youtube：8度科技) 29
-      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
-      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
-      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
-      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
-      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 30
       - (感谢关注youtube：8度科技) 31
       - (感谢关注youtube：8度科技) 32
-      - 阿尔巴尼亚(感谢关注youtube：8度科技)
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
-      - 爱沙尼亚(感谢关注youtube：8度科技)
-      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
-      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 33
       - (感谢关注youtube：8度科技) 34
-      - 🇫🇷 法国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 35
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇿🇦 南非(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 36
       - (感谢关注youtube：8度科技) 37
       - (感谢关注youtube：8度科技) 38
@@ -219,24 +173,66 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 52
       - (感谢关注youtube：8度科技) 53
       - (感谢关注youtube：8度科技) 54
-      - 西班牙(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 55
       - (感谢关注youtube：8度科技) 56
+      - (感谢关注youtube：8度科技) 57
+      - (感谢关注youtube：8度科技) 58
+      - (感谢关注youtube：8度科技) 59
+      - (感谢关注youtube：8度科技) 60
+      - (感谢关注youtube：8度科技) 61
+      - (感谢关注youtube：8度科技))
+      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
+      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
+      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
+      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
+      - 爱沙尼亚(感谢关注youtube：8度科技)
+      - 波士顿(感谢关注youtube：8度科技)
+      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇫🇷 法国(感谢关注youtube：8度科技)
+      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
+      - 捷克(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 62
+      - (感谢关注youtube：8度科技) 63
+      - (感谢关注youtube：8度科技) 64
+      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 16
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 17
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 18
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 瑞典 (感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技) 2
       - 🇬🇧 英国(感谢关注youtube：8度科技) 3
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君) 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 波士顿(感谢关注youtube：8度科技)
-      - 捷克(感谢关注youtube：8度科技)
-      - (Youtube频道：工具大师！)
-      - 瑞典 (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 3
@@ -246,7 +242,6 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 7
       - (感谢关注youtube：8度科技) 8
       - (感谢关注youtube：8度科技) 9
-      - (感谢关注youtube：8度科技))
       - (感谢关注youtube：8度科技) 10
       - (感谢关注youtube：8度科技) 11
       - (感谢关注youtube：8度科技) 12
@@ -267,53 +262,12 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 27
       - (感谢关注youtube：8度科技) 28
       - (感谢关注youtube：8度科技) 29
-      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
-      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
-      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
-      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
-      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 30
       - (感谢关注youtube：8度科技) 31
       - (感谢关注youtube：8度科技) 32
-      - 阿尔巴尼亚(感谢关注youtube：8度科技)
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
-      - 爱沙尼亚(感谢关注youtube：8度科技)
-      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
-      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 33
       - (感谢关注youtube：8度科技) 34
-      - 🇫🇷 法国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 35
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇿🇦 南非(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 36
       - (感谢关注youtube：8度科技) 37
       - (感谢关注youtube：8度科技) 38
@@ -333,24 +287,66 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 52
       - (感谢关注youtube：8度科技) 53
       - (感谢关注youtube：8度科技) 54
-      - 西班牙(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 55
       - (感谢关注youtube：8度科技) 56
+      - (感谢关注youtube：8度科技) 57
+      - (感谢关注youtube：8度科技) 58
+      - (感谢关注youtube：8度科技) 59
+      - (感谢关注youtube：8度科技) 60
+      - (感谢关注youtube：8度科技) 61
+      - (感谢关注youtube：8度科技))
+      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
+      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
+      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
+      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
+      - 爱沙尼亚(感谢关注youtube：8度科技)
+      - 波士顿(感谢关注youtube：8度科技)
+      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇫🇷 法国(感谢关注youtube：8度科技)
+      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
+      - 捷克(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 62
+      - (感谢关注youtube：8度科技) 63
+      - (感谢关注youtube：8度科技) 64
+      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 16
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 17
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 18
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 瑞典 (感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技) 2
       - 🇬🇧 英国(感谢关注youtube：8度科技) 3
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君) 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 波士顿(感谢关注youtube：8度科技)
-      - 捷克(感谢关注youtube：8度科技)
-      - (Youtube频道：工具大师！)
-      - 瑞典 (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 3
@@ -360,7 +356,6 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 7
       - (感谢关注youtube：8度科技) 8
       - (感谢关注youtube：8度科技) 9
-      - (感谢关注youtube：8度科技))
       - (感谢关注youtube：8度科技) 10
       - (感谢关注youtube：8度科技) 11
       - (感谢关注youtube：8度科技) 12
@@ -381,53 +376,12 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 27
       - (感谢关注youtube：8度科技) 28
       - (感谢关注youtube：8度科技) 29
-      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
-      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
-      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
-      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
-      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 30
       - (感谢关注youtube：8度科技) 31
       - (感谢关注youtube：8度科技) 32
-      - 阿尔巴尼亚(感谢关注youtube：8度科技)
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
-      - 爱沙尼亚(感谢关注youtube：8度科技)
-      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
-      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 33
       - (感谢关注youtube：8度科技) 34
-      - 🇫🇷 法国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 35
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇿🇦 南非(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 36
       - (感谢关注youtube：8度科技) 37
       - (感谢关注youtube：8度科技) 38
@@ -447,23 +401,65 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 52
       - (感谢关注youtube：8度科技) 53
       - (感谢关注youtube：8度科技) 54
-      - 西班牙(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 55
       - (感谢关注youtube：8度科技) 56
+      - (感谢关注youtube：8度科技) 57
+      - (感谢关注youtube：8度科技) 58
+      - (感谢关注youtube：8度科技) 59
+      - (感谢关注youtube：8度科技) 60
+      - (感谢关注youtube：8度科技) 61
+      - (感谢关注youtube：8度科技))
+      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
+      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
+      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
+      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
+      - 爱沙尼亚(感谢关注youtube：8度科技)
+      - 波士顿(感谢关注youtube：8度科技)
+      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇫🇷 法国(感谢关注youtube：8度科技)
+      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
+      - 捷克(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 62
+      - (感谢关注youtube：8度科技) 63
+      - (感谢关注youtube：8度科技) 64
+      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 16
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 17
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 18
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 瑞典 (感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技) 2
       - 🇬🇧 英国(感谢关注youtube：8度科技) 3
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君) 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 波士顿(感谢关注youtube：8度科技)
-      - 捷克(感谢关注youtube：8度科技)
-      - (Youtube频道：工具大师！)
-      - 瑞典 (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 3
@@ -473,7 +469,6 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 7
       - (感谢关注youtube：8度科技) 8
       - (感谢关注youtube：8度科技) 9
-      - (感谢关注youtube：8度科技))
       - (感谢关注youtube：8度科技) 10
       - (感谢关注youtube：8度科技) 11
       - (感谢关注youtube：8度科技) 12
@@ -494,53 +489,12 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 27
       - (感谢关注youtube：8度科技) 28
       - (感谢关注youtube：8度科技) 29
-      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
-      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
-      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
-      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
-      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 30
       - (感谢关注youtube：8度科技) 31
       - (感谢关注youtube：8度科技) 32
-      - 阿尔巴尼亚(感谢关注youtube：8度科技)
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
-      - 爱沙尼亚(感谢关注youtube：8度科技)
-      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
-      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 33
       - (感谢关注youtube：8度科技) 34
-      - 🇫🇷 法国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 35
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇿🇦 南非(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 36
       - (感谢关注youtube：8度科技) 37
       - (感谢关注youtube：8度科技) 38
@@ -560,23 +514,65 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 52
       - (感谢关注youtube：8度科技) 53
       - (感谢关注youtube：8度科技) 54
-      - 西班牙(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 55
       - (感谢关注youtube：8度科技) 56
+      - (感谢关注youtube：8度科技) 57
+      - (感谢关注youtube：8度科技) 58
+      - (感谢关注youtube：8度科技) 59
+      - (感谢关注youtube：8度科技) 60
+      - (感谢关注youtube：8度科技) 61
+      - (感谢关注youtube：8度科技))
+      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
+      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
+      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
+      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
+      - 爱沙尼亚(感谢关注youtube：8度科技)
+      - 波士顿(感谢关注youtube：8度科技)
+      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇫🇷 法国(感谢关注youtube：8度科技)
+      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
+      - 捷克(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 62
+      - (感谢关注youtube：8度科技) 63
+      - (感谢关注youtube：8度科技) 64
+      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 16
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 17
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 18
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 瑞典 (感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技) 2
       - 🇬🇧 英国(感谢关注youtube：8度科技) 3
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君) 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 波士顿(感谢关注youtube：8度科技)
-      - 捷克(感谢关注youtube：8度科技)
-      - (Youtube频道：工具大师！)
-      - 瑞典 (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 3
@@ -586,7 +582,6 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 7
       - (感谢关注youtube：8度科技) 8
       - (感谢关注youtube：8度科技) 9
-      - (感谢关注youtube：8度科技))
       - (感谢关注youtube：8度科技) 10
       - (感谢关注youtube：8度科技) 11
       - (感谢关注youtube：8度科技) 12
@@ -607,53 +602,12 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 27
       - (感谢关注youtube：8度科技) 28
       - (感谢关注youtube：8度科技) 29
-      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
-      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
-      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
-      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
-      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 30
       - (感谢关注youtube：8度科技) 31
       - (感谢关注youtube：8度科技) 32
-      - 阿尔巴尼亚(感谢关注youtube：8度科技)
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
-      - 爱沙尼亚(感谢关注youtube：8度科技)
-      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
-      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 33
       - (感谢关注youtube：8度科技) 34
-      - 🇫🇷 法国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 35
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇿🇦 南非(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 36
       - (感谢关注youtube：8度科技) 37
       - (感谢关注youtube：8度科技) 38
@@ -673,23 +627,65 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 52
       - (感谢关注youtube：8度科技) 53
       - (感谢关注youtube：8度科技) 54
-      - 西班牙(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 55
       - (感谢关注youtube：8度科技) 56
+      - (感谢关注youtube：8度科技) 57
+      - (感谢关注youtube：8度科技) 58
+      - (感谢关注youtube：8度科技) 59
+      - (感谢关注youtube：8度科技) 60
+      - (感谢关注youtube：8度科技) 61
+      - (感谢关注youtube：8度科技))
+      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
+      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
+      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
+      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
+      - 爱沙尼亚(感谢关注youtube：8度科技)
+      - 波士顿(感谢关注youtube：8度科技)
+      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇫🇷 法国(感谢关注youtube：8度科技)
+      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
+      - 捷克(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 62
+      - (感谢关注youtube：8度科技) 63
+      - (感谢关注youtube：8度科技) 64
+      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 16
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 17
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 18
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 瑞典 (感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技) 2
       - 🇬🇧 英国(感谢关注youtube：8度科技) 3
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君) 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 波士顿(感谢关注youtube：8度科技)
-      - 捷克(感谢关注youtube：8度科技)
-      - (Youtube频道：工具大师！)
-      - 瑞典 (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 3
@@ -699,7 +695,6 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 7
       - (感谢关注youtube：8度科技) 8
       - (感谢关注youtube：8度科技) 9
-      - (感谢关注youtube：8度科技))
       - (感谢关注youtube：8度科技) 10
       - (感谢关注youtube：8度科技) 11
       - (感谢关注youtube：8度科技) 12
@@ -720,53 +715,12 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 27
       - (感谢关注youtube：8度科技) 28
       - (感谢关注youtube：8度科技) 29
-      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
-      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
-      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
-      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
-      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 30
       - (感谢关注youtube：8度科技) 31
       - (感谢关注youtube：8度科技) 32
-      - 阿尔巴尼亚(感谢关注youtube：8度科技)
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
-      - 爱沙尼亚(感谢关注youtube：8度科技)
-      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
-      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 33
       - (感谢关注youtube：8度科技) 34
-      - 🇫🇷 法国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 35
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇿🇦 南非(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 36
       - (感谢关注youtube：8度科技) 37
       - (感谢关注youtube：8度科技) 38
@@ -786,24 +740,66 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 52
       - (感谢关注youtube：8度科技) 53
       - (感谢关注youtube：8度科技) 54
-      - 西班牙(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 55
       - (感谢关注youtube：8度科技) 56
+      - (感谢关注youtube：8度科技) 57
+      - (感谢关注youtube：8度科技) 58
+      - (感谢关注youtube：8度科技) 59
+      - (感谢关注youtube：8度科技) 60
+      - (感谢关注youtube：8度科技) 61
+      - (感谢关注youtube：8度科技))
+      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
+      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
+      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
+      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
+      - 爱沙尼亚(感谢关注youtube：8度科技)
+      - 波士顿(感谢关注youtube：8度科技)
+      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇫🇷 法国(感谢关注youtube：8度科技)
+      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
+      - 捷克(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 62
+      - (感谢关注youtube：8度科技) 63
+      - (感谢关注youtube：8度科技) 64
+      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 16
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 17
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 18
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 瑞典 (感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技) 2
       - 🇬🇧 英国(感谢关注youtube：8度科技) 3
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君) 2
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 波士顿(感谢关注youtube：8度科技)
-      - 捷克(感谢关注youtube：8度科技)
-      - (Youtube频道：工具大师！)
-      - 瑞典 (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 3
@@ -813,7 +809,6 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 7
       - (感谢关注youtube：8度科技) 8
       - (感谢关注youtube：8度科技) 9
-      - (感谢关注youtube：8度科技))
       - (感谢关注youtube：8度科技) 10
       - (感谢关注youtube：8度科技) 11
       - (感谢关注youtube：8度科技) 12
@@ -834,53 +829,12 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 27
       - (感谢关注youtube：8度科技) 28
       - (感谢关注youtube：8度科技) 29
-      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
-      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
-      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
-      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
-      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 30
       - (感谢关注youtube：8度科技) 31
       - (感谢关注youtube：8度科技) 32
-      - 阿尔巴尼亚(感谢关注youtube：8度科技)
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
-      - 爱沙尼亚(感谢关注youtube：8度科技)
-      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
-      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 33
       - (感谢关注youtube：8度科技) 34
-      - 🇫🇷 法国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 35
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇿🇦 南非(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 36
       - (感谢关注youtube：8度科技) 37
       - (感谢关注youtube：8度科技) 38
@@ -900,14 +854,60 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 52
       - (感谢关注youtube：8度科技) 53
       - (感谢关注youtube：8度科技) 54
-      - 西班牙(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 55
       - (感谢关注youtube：8度科技) 56
+      - (感谢关注youtube：8度科技) 57
+      - (感谢关注youtube：8度科技) 58
+      - (感谢关注youtube：8度科技) 59
+      - (感谢关注youtube：8度科技) 60
+      - (感谢关注youtube：8度科技) 61
+      - (感谢关注youtube：8度科技))
+      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
+      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
+      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
+      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
+      - 爱沙尼亚(感谢关注youtube：8度科技)
+      - 波士顿(感谢关注youtube：8度科技)
+      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇫🇷 法国(感谢关注youtube：8度科技)
+      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
+      - 捷克(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 62
+      - (感谢关注youtube：8度科技) 63
+      - (感谢关注youtube：8度科技) 64
+      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 16
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 17
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 18
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 瑞典 (感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技) 2
       - 🇬🇧 英国(感谢关注youtube：8度科技) 3
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君) 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -930,10 +930,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 波士顿(感谢关注youtube：8度科技)
-      - 捷克(感谢关注youtube：8度科技)
-      - (Youtube频道：工具大师！)
-      - 瑞典 (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 3
@@ -943,7 +939,6 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 7
       - (感谢关注youtube：8度科技) 8
       - (感谢关注youtube：8度科技) 9
-      - (感谢关注youtube：8度科技))
       - (感谢关注youtube：8度科技) 10
       - (感谢关注youtube：8度科技) 11
       - (感谢关注youtube：8度科技) 12
@@ -964,53 +959,12 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 27
       - (感谢关注youtube：8度科技) 28
       - (感谢关注youtube：8度科技) 29
-      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
-      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
-      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
-      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
-      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 30
       - (感谢关注youtube：8度科技) 31
       - (感谢关注youtube：8度科技) 32
-      - 阿尔巴尼亚(感谢关注youtube：8度科技)
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
-      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
-      - 爱沙尼亚(感谢关注youtube：8度科技)
-      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
-      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 33
       - (感谢关注youtube：8度科技) 34
-      - 🇫🇷 法国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 35
-      - 罗马(欢迎订阅Youtube破解资源君)
-      - 罗马(欢迎订阅Youtube破解资源君) 2
-      - 罗马(欢迎订阅Youtube破解资源君) 3
-      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
-      - 🇺🇲 美国(Youtube频道：工具大师！)
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
-      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君)
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 2
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 3
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 4
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 5
-      - 🇺🇲 美国(欢迎订阅Youtube破解资源君) 6
-      - 🇿🇦 南非(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 36
       - (感谢关注youtube：8度科技) 37
       - (感谢关注youtube：8度科技) 38
@@ -1030,14 +984,60 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 52
       - (感谢关注youtube：8度科技) 53
       - (感谢关注youtube：8度科技) 54
-      - 西班牙(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 55
       - (感谢关注youtube：8度科技) 56
+      - (感谢关注youtube：8度科技) 57
+      - (感谢关注youtube：8度科技) 58
+      - (感谢关注youtube：8度科技) 59
+      - (感谢关注youtube：8度科技) 60
+      - (感谢关注youtube：8度科技) 61
+      - (感谢关注youtube：8度科技))
+      - 🇨🇳 CN_57(感谢关注youtube：8度科技)
+      - 🇺🇲 CN-🇺🇸US(感谢关注youtube：8度科技)
+      - 🇭🇰 HK_132(感谢关注youtube：8度科技)
+      - 🇯🇵 JP_1540(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技)
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 3
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 4
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技)
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 2
+      - 🇮🇪 爱尔兰(感谢关注youtube：8度科技) 3
+      - 爱沙尼亚(感谢关注youtube：8度科技)
+      - 波士顿(感谢关注youtube：8度科技)
+      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇫🇷 法国(感谢关注youtube：8度科技)
+      - 🇫🇮 芬兰(感谢关注youtube：8度科技)
+      - 捷克(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 62
+      - (感谢关注youtube：8度科技) 63
+      - (感谢关注youtube：8度科技) 64
+      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技)
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 12
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 16
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 17
+      - 🇺🇲 美国(感谢关注youtube：8度科技) 18
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 瑞典 (感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技)
       - 🇬🇧 英国(感谢关注youtube：8度科技) 2
       - 🇬🇧 英国(感谢关注youtube：8度科技) 3
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君)
-      - 🇬🇧 英国(欢迎订阅Youtube破解资源君) 2
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -5,123 +5,82 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇬🇧 英国(感谢关注youtube：8度科技), server: 195.181.171.241, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢关注youtube：8度科技), server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (感谢关注youtube：8度科技) 2, server: 85.10.56.192, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 3, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 4, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢关注youtube：8度科技) 5, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢关注youtube：8度科技) 6, server: 180.149.231.3, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: (感谢关注youtube：8度科技) 7, server: 180.149.231.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: (感谢关注youtube：8度科技) 8, server: 180.149.231.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (感谢关注youtube：8度科技) 9, server: 180.149.231.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: (感谢关注youtube：8度科技) 10, server: 180.149.231.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢关注youtube：8度科技) 11, server: 103.108.117.116, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 12, server: 180.149.231.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 13, server: 180.149.231.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 14, server: 180.149.231.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: (感谢关注youtube：8度科技) 15, server: 180.149.231.3, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: (感谢关注youtube：8度科技) 16, server: jp-aws.proxypoolv2.tk, port: 443, type: trojan, password: 4c5d43ef-9226-4c01-8e75-5f095ba77a97, sni: jp-aws.proxypoolv2.tk, skip-cert-verify: false}
-  - {name: (感谢关注youtube：8度科技) 17, server: 45.125.247.155, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 18, server: 45.125.247.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 19, server: 180.149.231.3, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: (感谢关注youtube：8度科技) 20, server: 103.120.66.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 21, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 阿尔巴尼亚(感谢关注youtube：8度科技), server: 31.171.153.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 阿尔巴尼亚(感谢关注youtube：8度科技) 2, server: 31.171.154.221, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 22, server: 180.149.228.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 23, server: 209.216.92.3, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: (感谢关注youtube：8度科技) 24, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇿🇦 南非(感谢关注youtube：8度科技), server: 154.16.93.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 25, server: 209.216.92.3, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: (感谢关注youtube：8度科技) 26, server: 45.130.137.14, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: (感谢关注youtube：8度科技) 27, server: 154.16.93.51, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (感谢关注youtube：8度科技) 28, server: 31.171.154.221, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 29, server: 31.171.153.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 30, server: 154.16.93.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 31, server: 45.130.137.3, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: (感谢关注youtube：8度科技) 32, server: 91.206.168.26, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 33, server: 86.106.137.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 34, server: 66.115.147.92, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 爱沙尼亚(感谢关注youtube：8度科技), server: 185.174.159.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 35, server: 45.130.137.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: (感谢关注youtube：8度科技) 36, server: 45.130.137.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: (感谢关注youtube：8度科技) 37, server: 209.216.92.3, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: (感谢关注youtube：8度科技) 38, server: 217.138.222.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 39, server: 143.244.42.66, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢关注youtube：8度科技) 40, server: 45.130.137.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 41, server: 45.130.137.3, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
-  - {name: (感谢关注youtube：8度科技) 42, server: 209.216.92.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢关注youtube：8度科技) 43, server: 91.206.168.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 44, server: 217.138.222.53, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: (感谢关注youtube：8度科技) 45, server: 188.92.78.140, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (感谢关注youtube：8度科技) 46, server: 91.206.168.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 47, server: 91.206.168.36, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 48, server: 195.47.194.61, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 49, server: 5.133.8.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 50, server: 107.181.166.55, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技), server: 37.120.148.227, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 51, server: 91.90.123.171, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: (感谢关注youtube：8度科技) 52, server: 143.244.60.164, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 53, server: 185.174.159.51, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢关注youtube：8度科技) 54, server: 172.67.150.130, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: (感谢关注youtube：8度科技) 55, server: 91.90.123.171, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: (感谢关注youtube：8度科技) 56, server: 91.90.123.171, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇷🇺 俄罗斯(感谢关注youtube：8度科技), server: 185.174.159.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 57, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: (感谢关注youtube：8度科技) 58, server: 91.90.123.171, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢关注youtube：8度科技) 59, server: 91.90.123.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (感谢关注youtube：8度科技) 60, server: 91.90.123.171, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: (感谢关注youtube：8度科技) 61, server: 37.120.221.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 62, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 63, server: 5.157.13.99, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: (感谢关注youtube：8度科技) 64, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: (感谢关注youtube：8度科技) 65, server: 91.90.123.171, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇸🇪 瑞典 (感谢关注youtube：8度科技), server: 196.244.191.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 66, server: 172.98.78.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 67, server: 185.124.240.151, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇪🇸 西班牙(感谢关注youtube：8度科技), server: 37.120.148.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 68, server: 194.110.115.75, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 69, server: 194.110.115.75, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 70, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: (感谢关注youtube：8度科技) 71, server: 37.120.221.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: (感谢关注youtube：8度科技) 72, server: 37.120.221.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 73, server: 217.138.222.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 美国(感谢关注youtube：8度科技), server: 212.102.44.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 74, server: 196.244.191.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 75, server: 91.90.123.171, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: (感谢关注youtube：8度科技) 76, server: 195.181.171.243, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 77, server: 154.16.171.213, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇫🇷 法国(感谢关注youtube：8度科技), server: 185.108.106.188, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 78, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 79, server: 154.16.171.213, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 80, server: 196.244.191.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: (感谢关注youtube：8度科技) 81, server: 188.92.78.140, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 82, server: 37.120.148.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 罗马尼亚(感谢关注youtube：8度科技), server: 86.106.137.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 2, server: 107.174.20.130, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 83, server: 37.120.207.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 84, server: zhongzhuangazhk2.xiaobaiyun.me, port: 800, type: vmess, uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: els.xiaobaiyun.me}}
-  - {name: (感谢关注youtube：8度科技) 85, server: 91.90.123.171, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: (感谢关注youtube：8度科技) 86, server: 212.102.44.93, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: (感谢关注youtube：8度科技) 87, server: 212.102.44.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢关注youtube：8度科技) 88, server: 196.244.191.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 89, server: 91.205.230.168, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 90, server: 217.138.222.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢关注youtube：8度科技) 91, server: 156.146.62.54, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 92, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: (感谢关注youtube：8度科技) 93, server: 91.90.123.171, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇬🇧 英国(感谢关注youtube：8度科技) 2, server: 195.181.171.241, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢关注youtube：8度科技) 94, server: 104.19.80.46, port: 8080, type: vmess, uuid: 657f7981-0138-4c99-9199-51f62002d8e5, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /1234, ws-headers: {Host: 3.ioqr.cn}}
-  - {name: (感谢关注youtube：8度科技) 95, server: 212.102.44.96, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇭🇰 Relay_🇭🇰HK(感谢关注youtube：8度科技), server: zhongzhuangazhk2.xiaobaiyun.me, port: 800, type: vmess, uuid: 28aae7ef-076e-3e57-818f-29ff89e38d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: els.xiaobaiyun.me}}
-  - {name: (感谢关注youtube：8度科技) 96, server: 91.90.123.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 3, server: 185.242.5.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: JP_1540(感谢关注youtube：8度科技), server: 13.208.248.208, port: 35105, type: vmess, uuid: 6914f4cc-fa4b-4d5e-9a77-d6f8ea5e2f34, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 13.208.248.208}}
-  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 4, server: 104.16.181.15, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: (感谢关注youtube：8度科技) 97, server: 193.29.107.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: Relay_🇯🇵JP(感谢关注youtube：8度科技), server: v1-aws-jp-03.tudog.me, port: 80, type: vmess, uuid: 7c3992c0-e6ce-3e2a-a16d-5ae8c72fe088, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-03.tudog.me}}
-  - {name: Relay_🇯🇵JP-🇯🇵JP(感谢关注youtube：8度科技), server: v1-aws-jp-01.tudog.me, port: 80, type: vmess, uuid: 81337f1c-d27b-39c7-8605-3909cf13b5e2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-jp-01.tudog.me}}
+  - {name: (感谢关注youtube：8度科技), server: 91.90.123.171, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: (感谢关注youtube：8度科技) 2, server: 212.102.44.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 3, server: 212.102.44.93, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: (感谢关注youtube：8度科技) 4, server: 37.120.148.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 5, server: 185.124.240.151, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技), server: 212.102.44.93, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 6, server: 212.102.44.96, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 7, server: 172.98.78.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 8, server: 37.120.207.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 9, server: 196.244.191.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 10, server: 37.120.221.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 11, server: 37.120.221.5, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (感谢关注youtube：8度科技) 12, server: 5.133.8.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 13, server: 91.90.123.171, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (感谢关注youtube：8度科技) 14, server: 217.138.222.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: (感谢关注youtube：8度科技) 15, server: 196.244.191.35, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: (感谢关注youtube：8度科技) 16, server: 91.90.123.171, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: (感谢关注youtube：8度科技) 17, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (感谢关注youtube：8度科技) 18, server: 37.120.221.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技), server: 37.120.148.227, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 19, server: 196.244.191.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 20, server: 91.90.123.171, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: (感谢关注youtube：8度科技) 21, server: 91.90.123.171, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: (感谢关注youtube：8度科技) 22, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: (感谢关注youtube：8度科技) 23, server: 217.138.222.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 24, server: 91.90.123.171, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇬🇧 英国(感谢关注youtube：8度科技), server: 195.181.171.241, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 25, server: 37.120.221.5, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇸🇪 瑞典 (感谢关注youtube：8度科技), server: 196.244.191.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇪🇸 西班牙(感谢关注youtube：8度科技), server: 37.120.148.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 26, server: 195.181.171.243, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 27, server: zhongzhuangazhk2.xiaobaiyun.me, port: 800, type: vmess, uuid: 6d04dd65-c0b0-38b0-8d3a-be30a68cb55d, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: els.xiaobaiyun.me}}
+  - {name: (感谢关注youtube：8度科技) 28, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: (感谢关注youtube：8度科技) 29, server: 91.90.123.171, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: (感谢关注youtube：8度科技) 30, server: 91.90.123.171, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: (感谢关注youtube：8度科技) 31, server: 45.130.137.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇬🇧 英国(感谢关注youtube：8度科技) 2, server: 195.181.171.241, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: (感谢关注youtube：8度科技) 32, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇷🇴 罗马尼亚(感谢关注youtube：8度科技), server: 86.106.137.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 33, server: 91.90.123.171, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 34, server: 45.130.137.3, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: (感谢关注youtube：8度科技) 35, server: 45.130.137.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 36, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇿🇦 南非(感谢关注youtube：8度科技), server: 154.16.93.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 37, server: 154.16.93.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 38, server: 45.130.137.3, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: 阿尔巴尼亚(感谢关注youtube：8度科技), server: 31.171.154.221, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 39, server: 154.16.93.51, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: (感谢关注youtube：8度科技) 40, server: 31.171.153.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 阿尔巴尼亚(感谢关注youtube：8度科技) 2, server: 31.171.153.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 41, server: 31.171.154.221, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 42, server: 103.108.117.116, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 43, server: 45.125.247.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 44, server: 217.138.222.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: (感谢关注youtube：8度科技) 45, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 46, server: 45.125.247.155, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 47, server: 103.120.66.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 48, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 49, server: 180.149.228.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 50, server: 180.149.231.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: (感谢关注youtube：8度科技) 51, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 52, server: 180.149.231.3, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: (感谢关注youtube：8度科技) 53, server: 180.149.231.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: (感谢关注youtube：8度科技) 54, server: 180.149.231.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (感谢关注youtube：8度科技) 55, server: 180.149.231.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: (感谢关注youtube：8度科技) 56, server: 180.149.231.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 57, server: 180.149.231.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (感谢关注youtube：8度科技) 58, server: 180.149.231.3, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: (感谢关注youtube：8度科技) 59, server: 180.149.231.3, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: (感谢关注youtube：8度科技) 60, server: 180.149.231.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 61, server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇭🇰 Relay_🇭🇰HK(感谢关注youtube：8度科技), server: zhongzhuangazhk2.xiaobaiyun.me, port: 800, type: vmess, uuid: 28aae7ef-076e-3e57-818f-29ff89e38d3e, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: els.xiaobaiyun.me}}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 2, server: 107.174.20.130, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢关注youtube：8度科技) 62, server: 91.90.123.171, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
 proxy-groups:
   - name: Proxies
     type: select
@@ -131,12 +90,14 @@ proxy-groups:
       - JP
       - US
       - TW
-      - 🇬🇧 英国(感谢关注youtube：8度科技)
+      - JP_1540(感谢关注youtube：8度科技)
+      - Relay_🇯🇵JP(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 3
       - (感谢关注youtube：8度科技) 4
       - (感谢关注youtube：8度科技) 5
+      - 🇺🇸 美国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 6
       - (感谢关注youtube：8度科技) 7
       - (感谢关注youtube：8度科技) 8
@@ -150,32 +111,37 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 16
       - (感谢关注youtube：8度科技) 17
       - (感谢关注youtube：8度科技) 18
+      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 19
       - (感谢关注youtube：8度科技) 20
       - (感谢关注youtube：8度科技) 21
-      - 阿尔巴尼亚(感谢关注youtube：8度科技)
-      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 22
       - (感谢关注youtube：8度科技) 23
       - (感谢关注youtube：8度科技) 24
-      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 🇬🇧 英国(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 25
+      - 🇸🇪 瑞典 (感谢关注youtube：8度科技)
+      - 🇪🇸 西班牙(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 26
       - (感谢关注youtube：8度科技) 27
       - (感谢关注youtube：8度科技) 28
       - (感谢关注youtube：8度科技) 29
       - (感谢关注youtube：8度科技) 30
       - (感谢关注youtube：8度科技) 31
+      - 🇬🇧 英国(感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 32
+      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 33
       - (感谢关注youtube：8度科技) 34
-      - 爱沙尼亚(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 35
       - (感谢关注youtube：8度科技) 36
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 37
       - (感谢关注youtube：8度科技) 38
+      - 阿尔巴尼亚(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 39
       - (感谢关注youtube：8度科技) 40
+      - 阿尔巴尼亚(感谢关注youtube：8度科技) 2
       - (感谢关注youtube：8度科技) 41
       - (感谢关注youtube：8度科技) 42
       - (感谢关注youtube：8度科技) 43
@@ -186,68 +152,20 @@ proxy-groups:
       - (感谢关注youtube：8度科技) 48
       - (感谢关注youtube：8度科技) 49
       - (感谢关注youtube：8度科技) 50
-      - 🇩🇰 丹麦 哥本哈根(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 51
       - (感谢关注youtube：8度科技) 52
       - (感谢关注youtube：8度科技) 53
       - (感谢关注youtube：8度科技) 54
       - (感谢关注youtube：8度科技) 55
       - (感谢关注youtube：8度科技) 56
-      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 57
       - (感谢关注youtube：8度科技) 58
       - (感谢关注youtube：8度科技) 59
       - (感谢关注youtube：8度科技) 60
       - (感谢关注youtube：8度科技) 61
-      - (感谢关注youtube：8度科技) 62
-      - (感谢关注youtube：8度科技) 63
-      - (感谢关注youtube：8度科技) 64
-      - (感谢关注youtube：8度科技) 65
-      - 🇸🇪 瑞典 (感谢关注youtube：8度科技)
-      - (感谢关注youtube：8度科技) 66
-      - (感谢关注youtube：8度科技) 67
-      - 🇪🇸 西班牙(感谢关注youtube：8度科技)
-      - (感谢关注youtube：8度科技) 68
-      - (感谢关注youtube：8度科技) 69
-      - (感谢关注youtube：8度科技) 70
-      - (感谢关注youtube：8度科技) 71
-      - (感谢关注youtube：8度科技) 72
-      - (感谢关注youtube：8度科技) 73
-      - 🇺🇸 美国(感谢关注youtube：8度科技)
-      - (感谢关注youtube：8度科技) 74
-      - (感谢关注youtube：8度科技) 75
-      - (感谢关注youtube：8度科技) 76
-      - (感谢关注youtube：8度科技) 77
-      - 🇫🇷 法国(感谢关注youtube：8度科技)
-      - (感谢关注youtube：8度科技) 78
-      - (感谢关注youtube：8度科技) 79
-      - (感谢关注youtube：8度科技) 80
-      - (感谢关注youtube：8度科技) 81
-      - (感谢关注youtube：8度科技) 82
-      - 🇷🇴 罗马尼亚(感谢关注youtube：8度科技)
-      - 🇺🇸 美国(感谢关注youtube：8度科技) 2
-      - (感谢关注youtube：8度科技) 83
-      - (感谢关注youtube：8度科技) 84
-      - (感谢关注youtube：8度科技) 85
-      - (感谢关注youtube：8度科技) 86
-      - (感谢关注youtube：8度科技) 87
-      - (感谢关注youtube：8度科技) 88
-      - (感谢关注youtube：8度科技) 89
-      - (感谢关注youtube：8度科技) 90
-      - (感谢关注youtube：8度科技) 91
-      - (感谢关注youtube：8度科技) 92
-      - (感谢关注youtube：8度科技) 93
-      - 🇬🇧 英国(感谢关注youtube：8度科技) 2
-      - (感谢关注youtube：8度科技) 94
-      - (感谢关注youtube：8度科技) 95
       - 🇭🇰 Relay_🇭🇰HK(感谢关注youtube：8度科技)
-      - (感谢关注youtube：8度科技) 96
-      - 🇺🇸 美国(感谢关注youtube：8度科技) 3
-      - JP_1540(感谢关注youtube：8度科技)
-      - 🇺🇸 美国(感谢关注youtube：8度科技) 4
-      - (感谢关注youtube：8度科技) 97
-      - Relay_🇯🇵JP(感谢关注youtube：8度科技)
-      - Relay_🇯🇵JP-🇯🇵JP(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 2
+      - (感谢关注youtube：8度科技) 62
   - name: Apple
     type: select
     proxies:
@@ -327,14 +245,11 @@ proxy-groups:
     proxies:
       - JP_1540(感谢关注youtube：8度科技)
       - Relay_🇯🇵JP(感谢关注youtube：8度科技)
-      - Relay_🇯🇵JP-🇯🇵JP(感谢关注youtube：8度科技)
   - name: US
     type: select
     proxies:
       - 🇺🇸 美国(感谢关注youtube：8度科技)
       - 🇺🇸 美国(感谢关注youtube：8度科技) 2
-      - 🇺🇸 美国(感谢关注youtube：8度科技) 3
-      - 🇺🇸 美国(感谢关注youtube：8度科技) 4
 rules:
  - DOMAIN-SUFFIX,17gouwuba.com,REJECT
  - DOMAIN-SUFFIX,186078.com,REJECT

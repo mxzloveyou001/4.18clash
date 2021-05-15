@@ -5,145 +5,68 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: (感谢关注youtube：8度科技), server: 188.92.78.203, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: (感谢关注youtube：8度科技) 2, server: 195.181.171.241, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: CA_422, server: 68.71.244.208, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: GB_1414 |24.13Mb, server: 195.12.49.82, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: GB_1440 |27.16Mb, server: 195.12.49.82, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool_🇦🇱AL_31, server: 31.171.153.165, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_🇦🇱AL_48, server: 31.171.153.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇦🇹AT_69, server: 5.253.207.53, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_🇦🇿AZ_278, server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_🇧🇦BA_299, server: 185.212.111.6, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool_🇧🇿BZ_390, server: 45.231.207.72, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇨🇦CA_412, server: 208.78.41.200, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: Pool_🇨🇦CA_418, server: 104.200.132.35, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_🇨🇦CA_429, server: 104.200.132.35, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: Pool_🇨🇦CA_432, server: 172.83.40.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🇨🇦CA_435, server: 104.200.132.35, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: Pool_🇨🇾CY_516, server: 195.47.194.56, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇨🇿CZ_534, server: 89.187.168.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇨🇿CZ_537, server: 89.187.168.54, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇩🇰DK_31, server: 37.120.194.163, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🇩🇰DK_45, server: 37.120.194.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇩🇰DK_622, server: 95.174.65.69, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🇩🇰DK_630, server: 95.174.65.73, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇩🇰DK_650, server: 37.120.145.19, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: Pool_🇪🇪EE_697, server: 185.174.159.51, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_🇫🇮FI_801, server: 196.244.191.43, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🇫🇮FI_802, server: 196.244.191.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇫🇮FI_817, server: 196.244.191.195, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: Pool_🇫🇮FI_818, server: 196.244.191.43, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool_🇫🇮FI_819, server: 196.244.191.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🇬🇧GB_1012, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇬🇧GB_1044, server: 81.19.209.59, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: Pool_🇬🇧GB_1111, server: 195.181.171.241, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_🇬🇧GB_1117, server: 217.138.196.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_🇬🇧GB_84, server: 195.206.169.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_🇬🇧GB_88, server: 185.108.105.182, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇭🇺HU_1223, server: 37.120.144.213, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇮🇪IE_1238, server: 185.108.128.120, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇮🇪IE_1239, server: 23.92.127.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇮🇪IE_1254, server: 185.108.128.120, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_🇮🇹IT_112, server: 37.120.207.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_🇮🇹IT_1328, server: 82.102.26.91, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_🇱🇻LV_118, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🇱🇻LV_121, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: Pool_🇱🇻LV_1562, server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇱🇻LV_2295 |18.12Mb, server: 188.92.78.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_🇱🇻LV_2315 |29.66Mb, server: 188.92.78.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_🇱🇻LV_2316 |27.67Mb, server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_🇲🇰MK_1585, server: 185.225.28.101, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🇲🇰MK_1594, server: 185.225.28.243, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_🇲🇰MK_1599, server: 185.225.28.243, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: Pool_🇺🇦UA_2051, server: 176.107.185.73, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool_🏁ZZ_271, server: 138.199.40.169, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: Pool_🏁ZZ_275, server: 103.156.50.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🏁ZZ_276, server: 138.199.40.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🏁ZZ_277, server: 138.199.40.169, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: Pool_🏁ZZ_2864, server: 138.199.9.202, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇦🇺 Pool_🇦🇺AU_135, server: 45.248.79.29, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇦🇺 Pool_🇦🇺AU_145, server: 144.48.38.139, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇦🇺 Pool_🇦🇺AU_207, server: 45.130.137.12, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇺 Pool_🇦🇺AU_236, server: 144.48.38.21, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇨🇳 Pool_🇹🇼TW_2011, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 Pool_🇩🇪DE_563, server: 45.134.224.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇪🇸 Pool_🇪🇸ES_1005 |24.38Mb, server: 194.150.167.30, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇪🇸 Pool_🇪🇸ES_1035 |26.46Mb, server: 194.150.167.30, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇪🇸 Pool_🇪🇸ES_1046 |27.50Mb, server: 194.150.167.30, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇪🇸 Pool_🇪🇸ES_710 |25.12Mb, server: 185.153.150.46, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇪🇸 Pool_🇪🇸ES_715, server: 194.150.167.44, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇪🇸 Pool_🇪🇸ES_725, server: 194.150.167.30, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇪🇸 Pool_🇪🇸ES_763, server: 194.150.167.44, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇪🇸 Pool_🇪🇸ES_970 |26.61Mb, server: 194.150.167.30, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇫🇷 FR_1138 |23.81Mb, server: 51.89.21.77, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇫🇷 FR_927, server: 51.89.21.77, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇫🇷 Pool_🇫🇷FR_910, server: 185.108.106.26, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 Pool_🇳🇱NL_125, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 Pool_🇳🇱NL_1641, server: 89.46.223.72, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇳🇱 Pool_🇳🇱NL_1654, server: 212.102.35.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇳🇱 Pool_🇳🇱NL_1660, server: 91.206.168.29, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 Pool_🇷🇴RO_137, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 Pool_🇷🇴RO_138, server: 91.90.121.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 Pool_🇷🇴RO_143, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 Pool_🇷🇴RO_147, server: 185.124.240.157, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇷🇴 Pool_🇷🇴RO_1852, server: 89.45.7.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 Pool_🇷🇴RO_1891, server: 193.29.107.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 Pool_🇷🇴RO_1892, server: 89.37.95.15, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 Pool_🇷🇴RO_1899, server: 193.29.106.59, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 Pool_🇷🇴RO_1916, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇷🇴 Pool_🇷🇴RO_2776 |28.65Mb, server: 193.29.107.179, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇷🇴 Pool_🇷🇴RO_2792 |27.55Mb, server: 193.29.107.179, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇷🇴 Pool_🇷🇴RO_2831 |26.77Mb, server: 193.29.107.179, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇷🇴 Pool_🇷🇴RO_2838 |27.72Mb, server: 193.29.107.179, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇷🇴 Pool_🇷🇴RO_2871 |23.37Mb, server: 194.110.115.85, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇷🇺 Pool_🇷🇺RU_1933, server: 5.189.202.9, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇸🇪 Pool_🇸🇪SE_1947, server: 185.76.9.41, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇸🇬 SG_1909 |16.19Mb, server: 37.120.151.14, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇸🇬 SG_1962, server: 37.120.151.14, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 Pool_🇺🇸US_170, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 Pool_🇺🇸US_172, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_175, server: 143.244.60.164, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_176, server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_178, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 Pool_🇺🇸US_191, server: 66.115.182.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_200, server: 143.244.60.162, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_2060, server: 45.129.32.27, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_2092, server: 191.96.73.232, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_2106, server: 148.72.174.38, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_2119 |20.14Mb, server: 45.129.32.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_2147, server: 207.244.84.44, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_2163, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_220, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_2222, server: 198.147.22.167, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 Pool_🇺🇸US_2259, server: 64.44.42.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_227, server: 199.36.221.119, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_2280, server: 104.148.30.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_2283, server: 143.244.42.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_230, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 Pool_🇺🇸US_2351, server: 143.244.57.112, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 Pool_🇺🇸US_2370, server: 185.102.217.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_2375, server: 191.96.73.232, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_2390, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_244, server: 185.246.209.50, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_245, server: 185.242.5.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_2476, server: 198.147.22.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_2477, server: 198.147.22.151, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_2480, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_2527, server: 199.10.64.101, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 Pool_🇺🇸US_254, server: 104.200.131.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_2563, server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 Pool_🇺🇸US_2612, server: 45.129.32.15, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_2622, server: 143.244.42.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 Pool_🇺🇸US_2650, server: 143.244.57.91, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 Pool_🇺🇸US_2658, server: 143.244.57.91, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_🇺🇸US_2678, server: 199.36.221.119, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_🇺🇸US_2688, server: 212.102.44.66, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3688 |22.62Mb, server: 104.148.30.85, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 Pool_🇺🇸US_3939 |26.77Mb, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 Pool_🇺🇸US_4151 |29.78Mb, server: 143.244.57.91, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇺🇸 US_2421, server: 38.143.66.125, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 US_2643, server: 162.251.61.221, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: (感谢关注youtube：8度科技), server: 5.183.103.196, port: 57801, type: vmess, uuid: 337ae850-ba0b-4647-e9b7-a222dc09b0dc, alterId: 64, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 2, server: jp01.v2net.top, port: 10089, type: vmess, uuid: 79D0BCA4-67DB-51D3-B497-39D54338AB61, alterId: 0, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 3, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: (感谢关注youtube：8度科技) 4, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: (感谢关注youtube：8度科技) 5, server: 20.74.131.217, port: 13547, type: vmess, uuid: 52f0fa52-173c-41cb-97b8-bd2ea10217cf, alterId: 64, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 6, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: (感谢关注youtube：8度科技) 7, server: 43.226.26.113, port: 31627, type: vmess, uuid: b4d92783-2348-46e6-cf7a-dd45e870a1d2, alterId: 64, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 8, server: 45.12.110.8, port: 45458, type: vmess, uuid: c169c268-7e51-4564-bcf5-271b8e49e141, alterId: 0, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 9, server: 107.150.5.206, port: 34462, type: vmess, uuid: 31aaf7bc-a4be-4577-a82c-2ab2afbf4a7b, alterId: 64, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 10, server: 107.150.5.206, port: 34462, type: vmess, uuid: 31aaf7bc-a4be-4577-a82c-2ab2afbf4a7b, alterId: 64, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 11, server: 15.185.46.228, port: 34159, type: vmess, uuid: 1bc13688-ec25-4b37-d707-1ebbdc358bbc, alterId: 64, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 12, server: 204.44.68.71, port: 36777, type: vmess, uuid: d70cc1b3-e7e8-4b88-a24e-c91f001fd69e, alterId: 64, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 13, server: transite-shcn2-05.iplc188.com, port: 10002, type: vmess, uuid: 23bed695-ce44-4534-ad0f-b06d5ad4304b, alterId: 1, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 14, server: 13.245.16.126, port: 20404, type: vmess, uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技), server: 23.224.164.100, port: 443, type: vmess, uuid: d25a6583-52ca-496f-87ae-f2275b3b0ddd, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.09025120.xyz}}
+  - {name: 巴林(感谢关注youtube：8度科技), server: 15.185.149.71, port: 14474, type: vmess, uuid: fd0239b1-9d67-4867-fb7e-e14946b120af, alterId: 64, cipher: auto, tls: false}
+  - {name: 波兰(感谢关注youtube：8度科技), server: 95.214.55.120, port: 13256, type: vmess, uuid: 828aacdf-8c06-4bd9-d501-8f4eb506734c, alterId: 64, cipher: auto, tls: false}
+  - {name: 波兰(感谢关注youtube：8度科技) 2, server: 95.214.55.118, port: 41505, type: vmess, uuid: ab2a10e8-50a1-4d20-e973-b211ea6457f4, alterId: 64, cipher: auto, tls: false}
+  - {name: 波兰(感谢关注youtube：8度科技) 3, server: 95.214.55.118, port: 41505, type: vmess, uuid: ab2a10e8-50a1-4d20-e973-b211ea6457f4, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇷🇺 俄罗斯(感谢关注youtube：8度科技), server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 2, server: 104.16.181.15, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 3, server: 23.225.165.242, port: 443, type: vmess, uuid: 34f8dd2e-55f0-4d95-bfda-714f50b6c0e1, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.10925848.xyz}}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 4, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 5, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 6, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 7, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 8, server: 43.226.26.113, port: 31627, type: vmess, uuid: b4d92783-2348-46e6-cf7a-dd45e870a1d2, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 9, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 10, server: 45.88.179.35, port: 35497, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 11, server: 23.225.213.242, port: 443, type: vmess, uuid: 11c703a8-f3eb-4b3a-bc9b-2539c6ac6796, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/160317342506, ws-headers: {Host: www.16789312.xyz}}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 12, server: 45.88.179.35, port: 35497, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇿🇦 南非(感谢关注youtube：8度科技), server: 13.245.16.126, port: 20404, type: vmess, uuid: 559636c7-b5a2-450c-9b5e-0dc8fc14f4f5, alterId: 64, cipher: auto, tls: false}
+  - {name: 🇿🇦 南非(感谢关注youtube：8度科技) 2, server: 13.245.13.47, port: 45623, type: vmess, uuid: a443853f-ce89-4b7c-e6f5-a5ad018085bf, alterId: 64, cipher: auto, tls: false}
+  - {name: 欧洲(感谢关注youtube：8度科技), server: 15.185.149.71, port: 14474, type: vmess, uuid: fd0239b1-9d67-4867-fb7e-e14946b120af, alterId: 64, cipher: auto, tls: false}
+  - {name: 欧洲(感谢关注youtube：8度科技) 2, server: 15.185.46.228, port: 34159, type: vmess, uuid: 1bc13688-ec25-4b37-d707-1ebbdc358bbc, alterId: 64, cipher: auto, tls: false}
+  - {name: 欧洲(感谢关注youtube：8度科技) 3, server: 95.214.55.120, port: 13256, type: vmess, uuid: 828aacdf-8c06-4bd9-d501-8f4eb506734c, alterId: 64, cipher: auto, tls: false}
+  - {name: 西班牙(感谢关注youtube：8度科技), server: 5.183.102.142, port: 14420, type: vmess, uuid: 9984501d-e80a-4144-c6bd-2503fb49872d, alterId: 64, cipher: auto, tls: false}
+  - {name: 西班牙(感谢关注youtube：8度科技) 2, server: 5.183.102.142, port: 14420, type: vmess, uuid: 9984501d-e80a-4144-c6bd-2503fb49872d, alterId: 64, cipher: auto, tls: false}
+  - {name: 西班牙(感谢关注youtube：8度科技) 3, server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false}
+  - {name: (感谢关注youtube：8度科技) 15, server: 195.181.171.241, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 16, server: 185.134.23.40, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: (感谢关注youtube：8度科技) 17, server: 143.244.42.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: (感谢关注youtube：8度科技) 18, server: 194.110.115.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 19, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: (感谢关注youtube：8度科技) 20, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: (感谢关注youtube：8度科技) 21, server: 193.29.107.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 22, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 23, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: (感谢关注youtube：8度科技) 24, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: (感谢关注youtube：8度科技) 25, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 US(感谢关注youtube：8度科技), server: 191.96.73.232, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 US(感谢关注youtube：8度科技) 2, server: 191.96.73.232, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: AZ(感谢关注youtube：8度科技), server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: CY(感谢关注youtube：8度科技), server: 195.47.194.56, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢关注youtube：8度科技) 26, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇦 加拿大(感谢关注youtube：8度科技), server: ss.ca.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: r4TeEt5bK0UD}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 13, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 14, server: 104.200.131.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 15, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 美国(感谢关注youtube：8度科技) 16, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 欧洲(感谢关注youtube：8度科技) 4, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 西班牙(感谢关注youtube：8度科技) 4, server: 5.189.202.9, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -152,143 +75,66 @@ proxy-groups:
       - DIRECT
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
-      - CA_422
-      - GB_1414 |24.13Mb
-      - GB_1440 |27.16Mb
-      - Pool_🇦🇱AL_31
-      - Pool_🇦🇱AL_48
-      - Pool_🇦🇹AT_69
-      - Pool_🇦🇿AZ_278
-      - Pool_🇧🇦BA_299
-      - Pool_🇧🇿BZ_390
-      - Pool_🇨🇦CA_412
-      - Pool_🇨🇦CA_418
-      - Pool_🇨🇦CA_429
-      - Pool_🇨🇦CA_432
-      - Pool_🇨🇦CA_435
-      - Pool_🇨🇾CY_516
-      - Pool_🇨🇿CZ_534
-      - Pool_🇨🇿CZ_537
-      - Pool_🇩🇰DK_31
-      - Pool_🇩🇰DK_45
-      - Pool_🇩🇰DK_622
-      - Pool_🇩🇰DK_630
-      - Pool_🇩🇰DK_650
-      - Pool_🇪🇪EE_697
-      - Pool_🇫🇮FI_801
-      - Pool_🇫🇮FI_802
-      - Pool_🇫🇮FI_817
-      - Pool_🇫🇮FI_818
-      - Pool_🇫🇮FI_819
-      - Pool_🇬🇧GB_1012
-      - Pool_🇬🇧GB_1044
-      - Pool_🇬🇧GB_1111
-      - Pool_🇬🇧GB_1117
-      - Pool_🇬🇧GB_84
-      - Pool_🇬🇧GB_88
-      - Pool_🇭🇺HU_1223
-      - Pool_🇮🇪IE_1238
-      - Pool_🇮🇪IE_1239
-      - Pool_🇮🇪IE_1254
-      - Pool_🇮🇹IT_112
-      - Pool_🇮🇹IT_1328
-      - Pool_🇱🇻LV_118
-      - Pool_🇱🇻LV_121
-      - Pool_🇱🇻LV_1562
-      - Pool_🇱🇻LV_2295 |18.12Mb
-      - Pool_🇱🇻LV_2315 |29.66Mb
-      - Pool_🇱🇻LV_2316 |27.67Mb
-      - Pool_🇲🇰MK_1585
-      - Pool_🇲🇰MK_1594
-      - Pool_🇲🇰MK_1599
-      - Pool_🇺🇦UA_2051
-      - Pool_🏁ZZ_271
-      - Pool_🏁ZZ_275
-      - Pool_🏁ZZ_276
-      - Pool_🏁ZZ_277
-      - Pool_🏁ZZ_2864
-      - 🇦🇺 Pool_🇦🇺AU_135
-      - 🇦🇺 Pool_🇦🇺AU_145
-      - 🇦🇺 Pool_🇦🇺AU_207
-      - 🇦🇺 Pool_🇦🇺AU_236
-      - 🇨🇳 Pool_🇹🇼TW_2011
-      - 🇩🇪 Pool_🇩🇪DE_563
-      - 🇪🇸 Pool_🇪🇸ES_1005 |24.38Mb
-      - 🇪🇸 Pool_🇪🇸ES_1035 |26.46Mb
-      - 🇪🇸 Pool_🇪🇸ES_1046 |27.50Mb
-      - 🇪🇸 Pool_🇪🇸ES_710 |25.12Mb
-      - 🇪🇸 Pool_🇪🇸ES_715
-      - 🇪🇸 Pool_🇪🇸ES_725
-      - 🇪🇸 Pool_🇪🇸ES_763
-      - 🇪🇸 Pool_🇪🇸ES_970 |26.61Mb
-      - 🇫🇷 FR_1138 |23.81Mb
-      - 🇫🇷 FR_927
-      - 🇫🇷 Pool_🇫🇷FR_910
-      - 🇳🇱 Pool_🇳🇱NL_125
-      - 🇳🇱 Pool_🇳🇱NL_1641
-      - 🇳🇱 Pool_🇳🇱NL_1654
-      - 🇳🇱 Pool_🇳🇱NL_1660
-      - 🇷🇴 Pool_🇷🇴RO_137
-      - 🇷🇴 Pool_🇷🇴RO_138
-      - 🇷🇴 Pool_🇷🇴RO_143
-      - 🇷🇴 Pool_🇷🇴RO_147
-      - 🇷🇴 Pool_🇷🇴RO_1852
-      - 🇷🇴 Pool_🇷🇴RO_1891
-      - 🇷🇴 Pool_🇷🇴RO_1892
-      - 🇷🇴 Pool_🇷🇴RO_1899
-      - 🇷🇴 Pool_🇷🇴RO_1916
-      - 🇷🇴 Pool_🇷🇴RO_2776 |28.65Mb
-      - 🇷🇴 Pool_🇷🇴RO_2792 |27.55Mb
-      - 🇷🇴 Pool_🇷🇴RO_2831 |26.77Mb
-      - 🇷🇴 Pool_🇷🇴RO_2838 |27.72Mb
-      - 🇷🇴 Pool_🇷🇴RO_2871 |23.37Mb
-      - 🇷🇺 Pool_🇷🇺RU_1933
-      - 🇸🇪 Pool_🇸🇪SE_1947
-      - 🇸🇬 SG_1909 |16.19Mb
-      - 🇸🇬 SG_1962
-      - 🇺🇸 Pool_🇺🇸US_170
-      - 🇺🇸 Pool_🇺🇸US_172
-      - 🇺🇸 Pool_🇺🇸US_175
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇺🇸 Pool_🇺🇸US_178
-      - 🇺🇸 Pool_🇺🇸US_191
-      - 🇺🇸 Pool_🇺🇸US_200
-      - 🇺🇸 Pool_🇺🇸US_2060
-      - 🇺🇸 Pool_🇺🇸US_2092
-      - 🇺🇸 Pool_🇺🇸US_2106
-      - 🇺🇸 Pool_🇺🇸US_2119 |20.14Mb
-      - 🇺🇸 Pool_🇺🇸US_2147
-      - 🇺🇸 Pool_🇺🇸US_2163
-      - 🇺🇸 Pool_🇺🇸US_220
-      - 🇺🇸 Pool_🇺🇸US_2222
-      - 🇺🇸 Pool_🇺🇸US_2259
-      - 🇺🇸 Pool_🇺🇸US_227
-      - 🇺🇸 Pool_🇺🇸US_2280
-      - 🇺🇸 Pool_🇺🇸US_2283
-      - 🇺🇸 Pool_🇺🇸US_230
-      - 🇺🇸 Pool_🇺🇸US_2351
-      - 🇺🇸 Pool_🇺🇸US_2370
-      - 🇺🇸 Pool_🇺🇸US_2375
-      - 🇺🇸 Pool_🇺🇸US_2390
-      - 🇺🇸 Pool_🇺🇸US_244
-      - 🇺🇸 Pool_🇺🇸US_245
-      - 🇺🇸 Pool_🇺🇸US_2476
-      - 🇺🇸 Pool_🇺🇸US_2477
-      - 🇺🇸 Pool_🇺🇸US_2480
-      - 🇺🇸 Pool_🇺🇸US_2527
-      - 🇺🇸 Pool_🇺🇸US_254
-      - 🇺🇸 Pool_🇺🇸US_2563
-      - 🇺🇸 Pool_🇺🇸US_2612
-      - 🇺🇸 Pool_🇺🇸US_2622
-      - 🇺🇸 Pool_🇺🇸US_2650
-      - 🇺🇸 Pool_🇺🇸US_2658
-      - 🇺🇸 Pool_🇺🇸US_2678
-      - 🇺🇸 Pool_🇺🇸US_2688
-      - 🇺🇸 Pool_🇺🇸US_3688 |22.62Mb
-      - 🇺🇸 Pool_🇺🇸US_3939 |26.77Mb
-      - 🇺🇸 Pool_🇺🇸US_4151 |29.78Mb
-      - 🇺🇸 US_2421
-      - 🇺🇸 US_2643
+      - (感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 4
+      - (感谢关注youtube：8度科技) 5
+      - (感谢关注youtube：8度科技) 6
+      - (感谢关注youtube：8度科技) 7
+      - (感谢关注youtube：8度科技) 8
+      - (感谢关注youtube：8度科技) 9
+      - (感谢关注youtube：8度科技) 10
+      - (感谢关注youtube：8度科技) 11
+      - (感谢关注youtube：8度科技) 12
+      - (感谢关注youtube：8度科技) 13
+      - (感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技)
+      - 巴林(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技) 2
+      - 波兰(感谢关注youtube：8度科技) 3
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 12
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 🇿🇦 南非(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技)
+      - 欧洲(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技) 3
+      - 西班牙(感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技) 2
+      - 西班牙(感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 15
+      - (感谢关注youtube：8度科技) 16
+      - (感谢关注youtube：8度科技) 17
+      - (感谢关注youtube：8度科技) 18
+      - (感谢关注youtube：8度科技) 19
+      - (感谢关注youtube：8度科技) 20
+      - (感谢关注youtube：8度科技) 21
+      - (感谢关注youtube：8度科技) 22
+      - (感谢关注youtube：8度科技) 23
+      - (感谢关注youtube：8度科技) 24
+      - (感谢关注youtube：8度科技) 25
+      - 🇺🇸 US(感谢关注youtube：8度科技)
+      - 🇺🇸 US(感谢关注youtube：8度科技) 2
+      - AZ(感谢关注youtube：8度科技)
+      - CY(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 26
+      - 🇨🇦 加拿大(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 16
+      - 欧洲(感谢关注youtube：8度科技) 4
+      - 西班牙(感谢关注youtube：8度科技) 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -297,143 +143,66 @@ proxy-groups:
     proxies:
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
-      - CA_422
-      - GB_1414 |24.13Mb
-      - GB_1440 |27.16Mb
-      - Pool_🇦🇱AL_31
-      - Pool_🇦🇱AL_48
-      - Pool_🇦🇹AT_69
-      - Pool_🇦🇿AZ_278
-      - Pool_🇧🇦BA_299
-      - Pool_🇧🇿BZ_390
-      - Pool_🇨🇦CA_412
-      - Pool_🇨🇦CA_418
-      - Pool_🇨🇦CA_429
-      - Pool_🇨🇦CA_432
-      - Pool_🇨🇦CA_435
-      - Pool_🇨🇾CY_516
-      - Pool_🇨🇿CZ_534
-      - Pool_🇨🇿CZ_537
-      - Pool_🇩🇰DK_31
-      - Pool_🇩🇰DK_45
-      - Pool_🇩🇰DK_622
-      - Pool_🇩🇰DK_630
-      - Pool_🇩🇰DK_650
-      - Pool_🇪🇪EE_697
-      - Pool_🇫🇮FI_801
-      - Pool_🇫🇮FI_802
-      - Pool_🇫🇮FI_817
-      - Pool_🇫🇮FI_818
-      - Pool_🇫🇮FI_819
-      - Pool_🇬🇧GB_1012
-      - Pool_🇬🇧GB_1044
-      - Pool_🇬🇧GB_1111
-      - Pool_🇬🇧GB_1117
-      - Pool_🇬🇧GB_84
-      - Pool_🇬🇧GB_88
-      - Pool_🇭🇺HU_1223
-      - Pool_🇮🇪IE_1238
-      - Pool_🇮🇪IE_1239
-      - Pool_🇮🇪IE_1254
-      - Pool_🇮🇹IT_112
-      - Pool_🇮🇹IT_1328
-      - Pool_🇱🇻LV_118
-      - Pool_🇱🇻LV_121
-      - Pool_🇱🇻LV_1562
-      - Pool_🇱🇻LV_2295 |18.12Mb
-      - Pool_🇱🇻LV_2315 |29.66Mb
-      - Pool_🇱🇻LV_2316 |27.67Mb
-      - Pool_🇲🇰MK_1585
-      - Pool_🇲🇰MK_1594
-      - Pool_🇲🇰MK_1599
-      - Pool_🇺🇦UA_2051
-      - Pool_🏁ZZ_271
-      - Pool_🏁ZZ_275
-      - Pool_🏁ZZ_276
-      - Pool_🏁ZZ_277
-      - Pool_🏁ZZ_2864
-      - 🇦🇺 Pool_🇦🇺AU_135
-      - 🇦🇺 Pool_🇦🇺AU_145
-      - 🇦🇺 Pool_🇦🇺AU_207
-      - 🇦🇺 Pool_🇦🇺AU_236
-      - 🇨🇳 Pool_🇹🇼TW_2011
-      - 🇩🇪 Pool_🇩🇪DE_563
-      - 🇪🇸 Pool_🇪🇸ES_1005 |24.38Mb
-      - 🇪🇸 Pool_🇪🇸ES_1035 |26.46Mb
-      - 🇪🇸 Pool_🇪🇸ES_1046 |27.50Mb
-      - 🇪🇸 Pool_🇪🇸ES_710 |25.12Mb
-      - 🇪🇸 Pool_🇪🇸ES_715
-      - 🇪🇸 Pool_🇪🇸ES_725
-      - 🇪🇸 Pool_🇪🇸ES_763
-      - 🇪🇸 Pool_🇪🇸ES_970 |26.61Mb
-      - 🇫🇷 FR_1138 |23.81Mb
-      - 🇫🇷 FR_927
-      - 🇫🇷 Pool_🇫🇷FR_910
-      - 🇳🇱 Pool_🇳🇱NL_125
-      - 🇳🇱 Pool_🇳🇱NL_1641
-      - 🇳🇱 Pool_🇳🇱NL_1654
-      - 🇳🇱 Pool_🇳🇱NL_1660
-      - 🇷🇴 Pool_🇷🇴RO_137
-      - 🇷🇴 Pool_🇷🇴RO_138
-      - 🇷🇴 Pool_🇷🇴RO_143
-      - 🇷🇴 Pool_🇷🇴RO_147
-      - 🇷🇴 Pool_🇷🇴RO_1852
-      - 🇷🇴 Pool_🇷🇴RO_1891
-      - 🇷🇴 Pool_🇷🇴RO_1892
-      - 🇷🇴 Pool_🇷🇴RO_1899
-      - 🇷🇴 Pool_🇷🇴RO_1916
-      - 🇷🇴 Pool_🇷🇴RO_2776 |28.65Mb
-      - 🇷🇴 Pool_🇷🇴RO_2792 |27.55Mb
-      - 🇷🇴 Pool_🇷🇴RO_2831 |26.77Mb
-      - 🇷🇴 Pool_🇷🇴RO_2838 |27.72Mb
-      - 🇷🇴 Pool_🇷🇴RO_2871 |23.37Mb
-      - 🇷🇺 Pool_🇷🇺RU_1933
-      - 🇸🇪 Pool_🇸🇪SE_1947
-      - 🇸🇬 SG_1909 |16.19Mb
-      - 🇸🇬 SG_1962
-      - 🇺🇸 Pool_🇺🇸US_170
-      - 🇺🇸 Pool_🇺🇸US_172
-      - 🇺🇸 Pool_🇺🇸US_175
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇺🇸 Pool_🇺🇸US_178
-      - 🇺🇸 Pool_🇺🇸US_191
-      - 🇺🇸 Pool_🇺🇸US_200
-      - 🇺🇸 Pool_🇺🇸US_2060
-      - 🇺🇸 Pool_🇺🇸US_2092
-      - 🇺🇸 Pool_🇺🇸US_2106
-      - 🇺🇸 Pool_🇺🇸US_2119 |20.14Mb
-      - 🇺🇸 Pool_🇺🇸US_2147
-      - 🇺🇸 Pool_🇺🇸US_2163
-      - 🇺🇸 Pool_🇺🇸US_220
-      - 🇺🇸 Pool_🇺🇸US_2222
-      - 🇺🇸 Pool_🇺🇸US_2259
-      - 🇺🇸 Pool_🇺🇸US_227
-      - 🇺🇸 Pool_🇺🇸US_2280
-      - 🇺🇸 Pool_🇺🇸US_2283
-      - 🇺🇸 Pool_🇺🇸US_230
-      - 🇺🇸 Pool_🇺🇸US_2351
-      - 🇺🇸 Pool_🇺🇸US_2370
-      - 🇺🇸 Pool_🇺🇸US_2375
-      - 🇺🇸 Pool_🇺🇸US_2390
-      - 🇺🇸 Pool_🇺🇸US_244
-      - 🇺🇸 Pool_🇺🇸US_245
-      - 🇺🇸 Pool_🇺🇸US_2476
-      - 🇺🇸 Pool_🇺🇸US_2477
-      - 🇺🇸 Pool_🇺🇸US_2480
-      - 🇺🇸 Pool_🇺🇸US_2527
-      - 🇺🇸 Pool_🇺🇸US_254
-      - 🇺🇸 Pool_🇺🇸US_2563
-      - 🇺🇸 Pool_🇺🇸US_2612
-      - 🇺🇸 Pool_🇺🇸US_2622
-      - 🇺🇸 Pool_🇺🇸US_2650
-      - 🇺🇸 Pool_🇺🇸US_2658
-      - 🇺🇸 Pool_🇺🇸US_2678
-      - 🇺🇸 Pool_🇺🇸US_2688
-      - 🇺🇸 Pool_🇺🇸US_3688 |22.62Mb
-      - 🇺🇸 Pool_🇺🇸US_3939 |26.77Mb
-      - 🇺🇸 Pool_🇺🇸US_4151 |29.78Mb
-      - 🇺🇸 US_2421
-      - 🇺🇸 US_2643
+      - (感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 4
+      - (感谢关注youtube：8度科技) 5
+      - (感谢关注youtube：8度科技) 6
+      - (感谢关注youtube：8度科技) 7
+      - (感谢关注youtube：8度科技) 8
+      - (感谢关注youtube：8度科技) 9
+      - (感谢关注youtube：8度科技) 10
+      - (感谢关注youtube：8度科技) 11
+      - (感谢关注youtube：8度科技) 12
+      - (感谢关注youtube：8度科技) 13
+      - (感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技)
+      - 巴林(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技) 2
+      - 波兰(感谢关注youtube：8度科技) 3
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 12
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 🇿🇦 南非(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技)
+      - 欧洲(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技) 3
+      - 西班牙(感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技) 2
+      - 西班牙(感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 15
+      - (感谢关注youtube：8度科技) 16
+      - (感谢关注youtube：8度科技) 17
+      - (感谢关注youtube：8度科技) 18
+      - (感谢关注youtube：8度科技) 19
+      - (感谢关注youtube：8度科技) 20
+      - (感谢关注youtube：8度科技) 21
+      - (感谢关注youtube：8度科技) 22
+      - (感谢关注youtube：8度科技) 23
+      - (感谢关注youtube：8度科技) 24
+      - (感谢关注youtube：8度科技) 25
+      - 🇺🇸 US(感谢关注youtube：8度科技)
+      - 🇺🇸 US(感谢关注youtube：8度科技) 2
+      - AZ(感谢关注youtube：8度科技)
+      - CY(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 26
+      - 🇨🇦 加拿大(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 16
+      - 欧洲(感谢关注youtube：8度科技) 4
+      - 西班牙(感谢关注youtube：8度科技) 4
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -442,143 +211,66 @@ proxy-groups:
       - 🎯 全球直连
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
-      - CA_422
-      - GB_1414 |24.13Mb
-      - GB_1440 |27.16Mb
-      - Pool_🇦🇱AL_31
-      - Pool_🇦🇱AL_48
-      - Pool_🇦🇹AT_69
-      - Pool_🇦🇿AZ_278
-      - Pool_🇧🇦BA_299
-      - Pool_🇧🇿BZ_390
-      - Pool_🇨🇦CA_412
-      - Pool_🇨🇦CA_418
-      - Pool_🇨🇦CA_429
-      - Pool_🇨🇦CA_432
-      - Pool_🇨🇦CA_435
-      - Pool_🇨🇾CY_516
-      - Pool_🇨🇿CZ_534
-      - Pool_🇨🇿CZ_537
-      - Pool_🇩🇰DK_31
-      - Pool_🇩🇰DK_45
-      - Pool_🇩🇰DK_622
-      - Pool_🇩🇰DK_630
-      - Pool_🇩🇰DK_650
-      - Pool_🇪🇪EE_697
-      - Pool_🇫🇮FI_801
-      - Pool_🇫🇮FI_802
-      - Pool_🇫🇮FI_817
-      - Pool_🇫🇮FI_818
-      - Pool_🇫🇮FI_819
-      - Pool_🇬🇧GB_1012
-      - Pool_🇬🇧GB_1044
-      - Pool_🇬🇧GB_1111
-      - Pool_🇬🇧GB_1117
-      - Pool_🇬🇧GB_84
-      - Pool_🇬🇧GB_88
-      - Pool_🇭🇺HU_1223
-      - Pool_🇮🇪IE_1238
-      - Pool_🇮🇪IE_1239
-      - Pool_🇮🇪IE_1254
-      - Pool_🇮🇹IT_112
-      - Pool_🇮🇹IT_1328
-      - Pool_🇱🇻LV_118
-      - Pool_🇱🇻LV_121
-      - Pool_🇱🇻LV_1562
-      - Pool_🇱🇻LV_2295 |18.12Mb
-      - Pool_🇱🇻LV_2315 |29.66Mb
-      - Pool_🇱🇻LV_2316 |27.67Mb
-      - Pool_🇲🇰MK_1585
-      - Pool_🇲🇰MK_1594
-      - Pool_🇲🇰MK_1599
-      - Pool_🇺🇦UA_2051
-      - Pool_🏁ZZ_271
-      - Pool_🏁ZZ_275
-      - Pool_🏁ZZ_276
-      - Pool_🏁ZZ_277
-      - Pool_🏁ZZ_2864
-      - 🇦🇺 Pool_🇦🇺AU_135
-      - 🇦🇺 Pool_🇦🇺AU_145
-      - 🇦🇺 Pool_🇦🇺AU_207
-      - 🇦🇺 Pool_🇦🇺AU_236
-      - 🇨🇳 Pool_🇹🇼TW_2011
-      - 🇩🇪 Pool_🇩🇪DE_563
-      - 🇪🇸 Pool_🇪🇸ES_1005 |24.38Mb
-      - 🇪🇸 Pool_🇪🇸ES_1035 |26.46Mb
-      - 🇪🇸 Pool_🇪🇸ES_1046 |27.50Mb
-      - 🇪🇸 Pool_🇪🇸ES_710 |25.12Mb
-      - 🇪🇸 Pool_🇪🇸ES_715
-      - 🇪🇸 Pool_🇪🇸ES_725
-      - 🇪🇸 Pool_🇪🇸ES_763
-      - 🇪🇸 Pool_🇪🇸ES_970 |26.61Mb
-      - 🇫🇷 FR_1138 |23.81Mb
-      - 🇫🇷 FR_927
-      - 🇫🇷 Pool_🇫🇷FR_910
-      - 🇳🇱 Pool_🇳🇱NL_125
-      - 🇳🇱 Pool_🇳🇱NL_1641
-      - 🇳🇱 Pool_🇳🇱NL_1654
-      - 🇳🇱 Pool_🇳🇱NL_1660
-      - 🇷🇴 Pool_🇷🇴RO_137
-      - 🇷🇴 Pool_🇷🇴RO_138
-      - 🇷🇴 Pool_🇷🇴RO_143
-      - 🇷🇴 Pool_🇷🇴RO_147
-      - 🇷🇴 Pool_🇷🇴RO_1852
-      - 🇷🇴 Pool_🇷🇴RO_1891
-      - 🇷🇴 Pool_🇷🇴RO_1892
-      - 🇷🇴 Pool_🇷🇴RO_1899
-      - 🇷🇴 Pool_🇷🇴RO_1916
-      - 🇷🇴 Pool_🇷🇴RO_2776 |28.65Mb
-      - 🇷🇴 Pool_🇷🇴RO_2792 |27.55Mb
-      - 🇷🇴 Pool_🇷🇴RO_2831 |26.77Mb
-      - 🇷🇴 Pool_🇷🇴RO_2838 |27.72Mb
-      - 🇷🇴 Pool_🇷🇴RO_2871 |23.37Mb
-      - 🇷🇺 Pool_🇷🇺RU_1933
-      - 🇸🇪 Pool_🇸🇪SE_1947
-      - 🇸🇬 SG_1909 |16.19Mb
-      - 🇸🇬 SG_1962
-      - 🇺🇸 Pool_🇺🇸US_170
-      - 🇺🇸 Pool_🇺🇸US_172
-      - 🇺🇸 Pool_🇺🇸US_175
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇺🇸 Pool_🇺🇸US_178
-      - 🇺🇸 Pool_🇺🇸US_191
-      - 🇺🇸 Pool_🇺🇸US_200
-      - 🇺🇸 Pool_🇺🇸US_2060
-      - 🇺🇸 Pool_🇺🇸US_2092
-      - 🇺🇸 Pool_🇺🇸US_2106
-      - 🇺🇸 Pool_🇺🇸US_2119 |20.14Mb
-      - 🇺🇸 Pool_🇺🇸US_2147
-      - 🇺🇸 Pool_🇺🇸US_2163
-      - 🇺🇸 Pool_🇺🇸US_220
-      - 🇺🇸 Pool_🇺🇸US_2222
-      - 🇺🇸 Pool_🇺🇸US_2259
-      - 🇺🇸 Pool_🇺🇸US_227
-      - 🇺🇸 Pool_🇺🇸US_2280
-      - 🇺🇸 Pool_🇺🇸US_2283
-      - 🇺🇸 Pool_🇺🇸US_230
-      - 🇺🇸 Pool_🇺🇸US_2351
-      - 🇺🇸 Pool_🇺🇸US_2370
-      - 🇺🇸 Pool_🇺🇸US_2375
-      - 🇺🇸 Pool_🇺🇸US_2390
-      - 🇺🇸 Pool_🇺🇸US_244
-      - 🇺🇸 Pool_🇺🇸US_245
-      - 🇺🇸 Pool_🇺🇸US_2476
-      - 🇺🇸 Pool_🇺🇸US_2477
-      - 🇺🇸 Pool_🇺🇸US_2480
-      - 🇺🇸 Pool_🇺🇸US_2527
-      - 🇺🇸 Pool_🇺🇸US_254
-      - 🇺🇸 Pool_🇺🇸US_2563
-      - 🇺🇸 Pool_🇺🇸US_2612
-      - 🇺🇸 Pool_🇺🇸US_2622
-      - 🇺🇸 Pool_🇺🇸US_2650
-      - 🇺🇸 Pool_🇺🇸US_2658
-      - 🇺🇸 Pool_🇺🇸US_2678
-      - 🇺🇸 Pool_🇺🇸US_2688
-      - 🇺🇸 Pool_🇺🇸US_3688 |22.62Mb
-      - 🇺🇸 Pool_🇺🇸US_3939 |26.77Mb
-      - 🇺🇸 Pool_🇺🇸US_4151 |29.78Mb
-      - 🇺🇸 US_2421
-      - 🇺🇸 US_2643
+      - (感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 4
+      - (感谢关注youtube：8度科技) 5
+      - (感谢关注youtube：8度科技) 6
+      - (感谢关注youtube：8度科技) 7
+      - (感谢关注youtube：8度科技) 8
+      - (感谢关注youtube：8度科技) 9
+      - (感谢关注youtube：8度科技) 10
+      - (感谢关注youtube：8度科技) 11
+      - (感谢关注youtube：8度科技) 12
+      - (感谢关注youtube：8度科技) 13
+      - (感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技)
+      - 巴林(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技) 2
+      - 波兰(感谢关注youtube：8度科技) 3
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 12
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 🇿🇦 南非(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技)
+      - 欧洲(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技) 3
+      - 西班牙(感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技) 2
+      - 西班牙(感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 15
+      - (感谢关注youtube：8度科技) 16
+      - (感谢关注youtube：8度科技) 17
+      - (感谢关注youtube：8度科技) 18
+      - (感谢关注youtube：8度科技) 19
+      - (感谢关注youtube：8度科技) 20
+      - (感谢关注youtube：8度科技) 21
+      - (感谢关注youtube：8度科技) 22
+      - (感谢关注youtube：8度科技) 23
+      - (感谢关注youtube：8度科技) 24
+      - (感谢关注youtube：8度科技) 25
+      - 🇺🇸 US(感谢关注youtube：8度科技)
+      - 🇺🇸 US(感谢关注youtube：8度科技) 2
+      - AZ(感谢关注youtube：8度科技)
+      - CY(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 26
+      - 🇨🇦 加拿大(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 16
+      - 欧洲(感谢关注youtube：8度科技) 4
+      - 西班牙(感谢关注youtube：8度科技) 4
   - name: 📲 电报信息
     type: select
     proxies:
@@ -586,143 +278,66 @@ proxy-groups:
       - 🎯 全球直连
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
-      - CA_422
-      - GB_1414 |24.13Mb
-      - GB_1440 |27.16Mb
-      - Pool_🇦🇱AL_31
-      - Pool_🇦🇱AL_48
-      - Pool_🇦🇹AT_69
-      - Pool_🇦🇿AZ_278
-      - Pool_🇧🇦BA_299
-      - Pool_🇧🇿BZ_390
-      - Pool_🇨🇦CA_412
-      - Pool_🇨🇦CA_418
-      - Pool_🇨🇦CA_429
-      - Pool_🇨🇦CA_432
-      - Pool_🇨🇦CA_435
-      - Pool_🇨🇾CY_516
-      - Pool_🇨🇿CZ_534
-      - Pool_🇨🇿CZ_537
-      - Pool_🇩🇰DK_31
-      - Pool_🇩🇰DK_45
-      - Pool_🇩🇰DK_622
-      - Pool_🇩🇰DK_630
-      - Pool_🇩🇰DK_650
-      - Pool_🇪🇪EE_697
-      - Pool_🇫🇮FI_801
-      - Pool_🇫🇮FI_802
-      - Pool_🇫🇮FI_817
-      - Pool_🇫🇮FI_818
-      - Pool_🇫🇮FI_819
-      - Pool_🇬🇧GB_1012
-      - Pool_🇬🇧GB_1044
-      - Pool_🇬🇧GB_1111
-      - Pool_🇬🇧GB_1117
-      - Pool_🇬🇧GB_84
-      - Pool_🇬🇧GB_88
-      - Pool_🇭🇺HU_1223
-      - Pool_🇮🇪IE_1238
-      - Pool_🇮🇪IE_1239
-      - Pool_🇮🇪IE_1254
-      - Pool_🇮🇹IT_112
-      - Pool_🇮🇹IT_1328
-      - Pool_🇱🇻LV_118
-      - Pool_🇱🇻LV_121
-      - Pool_🇱🇻LV_1562
-      - Pool_🇱🇻LV_2295 |18.12Mb
-      - Pool_🇱🇻LV_2315 |29.66Mb
-      - Pool_🇱🇻LV_2316 |27.67Mb
-      - Pool_🇲🇰MK_1585
-      - Pool_🇲🇰MK_1594
-      - Pool_🇲🇰MK_1599
-      - Pool_🇺🇦UA_2051
-      - Pool_🏁ZZ_271
-      - Pool_🏁ZZ_275
-      - Pool_🏁ZZ_276
-      - Pool_🏁ZZ_277
-      - Pool_🏁ZZ_2864
-      - 🇦🇺 Pool_🇦🇺AU_135
-      - 🇦🇺 Pool_🇦🇺AU_145
-      - 🇦🇺 Pool_🇦🇺AU_207
-      - 🇦🇺 Pool_🇦🇺AU_236
-      - 🇨🇳 Pool_🇹🇼TW_2011
-      - 🇩🇪 Pool_🇩🇪DE_563
-      - 🇪🇸 Pool_🇪🇸ES_1005 |24.38Mb
-      - 🇪🇸 Pool_🇪🇸ES_1035 |26.46Mb
-      - 🇪🇸 Pool_🇪🇸ES_1046 |27.50Mb
-      - 🇪🇸 Pool_🇪🇸ES_710 |25.12Mb
-      - 🇪🇸 Pool_🇪🇸ES_715
-      - 🇪🇸 Pool_🇪🇸ES_725
-      - 🇪🇸 Pool_🇪🇸ES_763
-      - 🇪🇸 Pool_🇪🇸ES_970 |26.61Mb
-      - 🇫🇷 FR_1138 |23.81Mb
-      - 🇫🇷 FR_927
-      - 🇫🇷 Pool_🇫🇷FR_910
-      - 🇳🇱 Pool_🇳🇱NL_125
-      - 🇳🇱 Pool_🇳🇱NL_1641
-      - 🇳🇱 Pool_🇳🇱NL_1654
-      - 🇳🇱 Pool_🇳🇱NL_1660
-      - 🇷🇴 Pool_🇷🇴RO_137
-      - 🇷🇴 Pool_🇷🇴RO_138
-      - 🇷🇴 Pool_🇷🇴RO_143
-      - 🇷🇴 Pool_🇷🇴RO_147
-      - 🇷🇴 Pool_🇷🇴RO_1852
-      - 🇷🇴 Pool_🇷🇴RO_1891
-      - 🇷🇴 Pool_🇷🇴RO_1892
-      - 🇷🇴 Pool_🇷🇴RO_1899
-      - 🇷🇴 Pool_🇷🇴RO_1916
-      - 🇷🇴 Pool_🇷🇴RO_2776 |28.65Mb
-      - 🇷🇴 Pool_🇷🇴RO_2792 |27.55Mb
-      - 🇷🇴 Pool_🇷🇴RO_2831 |26.77Mb
-      - 🇷🇴 Pool_🇷🇴RO_2838 |27.72Mb
-      - 🇷🇴 Pool_🇷🇴RO_2871 |23.37Mb
-      - 🇷🇺 Pool_🇷🇺RU_1933
-      - 🇸🇪 Pool_🇸🇪SE_1947
-      - 🇸🇬 SG_1909 |16.19Mb
-      - 🇸🇬 SG_1962
-      - 🇺🇸 Pool_🇺🇸US_170
-      - 🇺🇸 Pool_🇺🇸US_172
-      - 🇺🇸 Pool_🇺🇸US_175
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇺🇸 Pool_🇺🇸US_178
-      - 🇺🇸 Pool_🇺🇸US_191
-      - 🇺🇸 Pool_🇺🇸US_200
-      - 🇺🇸 Pool_🇺🇸US_2060
-      - 🇺🇸 Pool_🇺🇸US_2092
-      - 🇺🇸 Pool_🇺🇸US_2106
-      - 🇺🇸 Pool_🇺🇸US_2119 |20.14Mb
-      - 🇺🇸 Pool_🇺🇸US_2147
-      - 🇺🇸 Pool_🇺🇸US_2163
-      - 🇺🇸 Pool_🇺🇸US_220
-      - 🇺🇸 Pool_🇺🇸US_2222
-      - 🇺🇸 Pool_🇺🇸US_2259
-      - 🇺🇸 Pool_🇺🇸US_227
-      - 🇺🇸 Pool_🇺🇸US_2280
-      - 🇺🇸 Pool_🇺🇸US_2283
-      - 🇺🇸 Pool_🇺🇸US_230
-      - 🇺🇸 Pool_🇺🇸US_2351
-      - 🇺🇸 Pool_🇺🇸US_2370
-      - 🇺🇸 Pool_🇺🇸US_2375
-      - 🇺🇸 Pool_🇺🇸US_2390
-      - 🇺🇸 Pool_🇺🇸US_244
-      - 🇺🇸 Pool_🇺🇸US_245
-      - 🇺🇸 Pool_🇺🇸US_2476
-      - 🇺🇸 Pool_🇺🇸US_2477
-      - 🇺🇸 Pool_🇺🇸US_2480
-      - 🇺🇸 Pool_🇺🇸US_2527
-      - 🇺🇸 Pool_🇺🇸US_254
-      - 🇺🇸 Pool_🇺🇸US_2563
-      - 🇺🇸 Pool_🇺🇸US_2612
-      - 🇺🇸 Pool_🇺🇸US_2622
-      - 🇺🇸 Pool_🇺🇸US_2650
-      - 🇺🇸 Pool_🇺🇸US_2658
-      - 🇺🇸 Pool_🇺🇸US_2678
-      - 🇺🇸 Pool_🇺🇸US_2688
-      - 🇺🇸 Pool_🇺🇸US_3688 |22.62Mb
-      - 🇺🇸 Pool_🇺🇸US_3939 |26.77Mb
-      - 🇺🇸 Pool_🇺🇸US_4151 |29.78Mb
-      - 🇺🇸 US_2421
-      - 🇺🇸 US_2643
+      - (感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 4
+      - (感谢关注youtube：8度科技) 5
+      - (感谢关注youtube：8度科技) 6
+      - (感谢关注youtube：8度科技) 7
+      - (感谢关注youtube：8度科技) 8
+      - (感谢关注youtube：8度科技) 9
+      - (感谢关注youtube：8度科技) 10
+      - (感谢关注youtube：8度科技) 11
+      - (感谢关注youtube：8度科技) 12
+      - (感谢关注youtube：8度科技) 13
+      - (感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技)
+      - 巴林(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技) 2
+      - 波兰(感谢关注youtube：8度科技) 3
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 12
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 🇿🇦 南非(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技)
+      - 欧洲(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技) 3
+      - 西班牙(感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技) 2
+      - 西班牙(感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 15
+      - (感谢关注youtube：8度科技) 16
+      - (感谢关注youtube：8度科技) 17
+      - (感谢关注youtube：8度科技) 18
+      - (感谢关注youtube：8度科技) 19
+      - (感谢关注youtube：8度科技) 20
+      - (感谢关注youtube：8度科技) 21
+      - (感谢关注youtube：8度科技) 22
+      - (感谢关注youtube：8度科技) 23
+      - (感谢关注youtube：8度科技) 24
+      - (感谢关注youtube：8度科技) 25
+      - 🇺🇸 US(感谢关注youtube：8度科技)
+      - 🇺🇸 US(感谢关注youtube：8度科技) 2
+      - AZ(感谢关注youtube：8度科技)
+      - CY(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 26
+      - 🇨🇦 加拿大(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 16
+      - 欧洲(感谢关注youtube：8度科技) 4
+      - 西班牙(感谢关注youtube：8度科技) 4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -730,143 +345,66 @@ proxy-groups:
       - 🚀 节点选择
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
-      - CA_422
-      - GB_1414 |24.13Mb
-      - GB_1440 |27.16Mb
-      - Pool_🇦🇱AL_31
-      - Pool_🇦🇱AL_48
-      - Pool_🇦🇹AT_69
-      - Pool_🇦🇿AZ_278
-      - Pool_🇧🇦BA_299
-      - Pool_🇧🇿BZ_390
-      - Pool_🇨🇦CA_412
-      - Pool_🇨🇦CA_418
-      - Pool_🇨🇦CA_429
-      - Pool_🇨🇦CA_432
-      - Pool_🇨🇦CA_435
-      - Pool_🇨🇾CY_516
-      - Pool_🇨🇿CZ_534
-      - Pool_🇨🇿CZ_537
-      - Pool_🇩🇰DK_31
-      - Pool_🇩🇰DK_45
-      - Pool_🇩🇰DK_622
-      - Pool_🇩🇰DK_630
-      - Pool_🇩🇰DK_650
-      - Pool_🇪🇪EE_697
-      - Pool_🇫🇮FI_801
-      - Pool_🇫🇮FI_802
-      - Pool_🇫🇮FI_817
-      - Pool_🇫🇮FI_818
-      - Pool_🇫🇮FI_819
-      - Pool_🇬🇧GB_1012
-      - Pool_🇬🇧GB_1044
-      - Pool_🇬🇧GB_1111
-      - Pool_🇬🇧GB_1117
-      - Pool_🇬🇧GB_84
-      - Pool_🇬🇧GB_88
-      - Pool_🇭🇺HU_1223
-      - Pool_🇮🇪IE_1238
-      - Pool_🇮🇪IE_1239
-      - Pool_🇮🇪IE_1254
-      - Pool_🇮🇹IT_112
-      - Pool_🇮🇹IT_1328
-      - Pool_🇱🇻LV_118
-      - Pool_🇱🇻LV_121
-      - Pool_🇱🇻LV_1562
-      - Pool_🇱🇻LV_2295 |18.12Mb
-      - Pool_🇱🇻LV_2315 |29.66Mb
-      - Pool_🇱🇻LV_2316 |27.67Mb
-      - Pool_🇲🇰MK_1585
-      - Pool_🇲🇰MK_1594
-      - Pool_🇲🇰MK_1599
-      - Pool_🇺🇦UA_2051
-      - Pool_🏁ZZ_271
-      - Pool_🏁ZZ_275
-      - Pool_🏁ZZ_276
-      - Pool_🏁ZZ_277
-      - Pool_🏁ZZ_2864
-      - 🇦🇺 Pool_🇦🇺AU_135
-      - 🇦🇺 Pool_🇦🇺AU_145
-      - 🇦🇺 Pool_🇦🇺AU_207
-      - 🇦🇺 Pool_🇦🇺AU_236
-      - 🇨🇳 Pool_🇹🇼TW_2011
-      - 🇩🇪 Pool_🇩🇪DE_563
-      - 🇪🇸 Pool_🇪🇸ES_1005 |24.38Mb
-      - 🇪🇸 Pool_🇪🇸ES_1035 |26.46Mb
-      - 🇪🇸 Pool_🇪🇸ES_1046 |27.50Mb
-      - 🇪🇸 Pool_🇪🇸ES_710 |25.12Mb
-      - 🇪🇸 Pool_🇪🇸ES_715
-      - 🇪🇸 Pool_🇪🇸ES_725
-      - 🇪🇸 Pool_🇪🇸ES_763
-      - 🇪🇸 Pool_🇪🇸ES_970 |26.61Mb
-      - 🇫🇷 FR_1138 |23.81Mb
-      - 🇫🇷 FR_927
-      - 🇫🇷 Pool_🇫🇷FR_910
-      - 🇳🇱 Pool_🇳🇱NL_125
-      - 🇳🇱 Pool_🇳🇱NL_1641
-      - 🇳🇱 Pool_🇳🇱NL_1654
-      - 🇳🇱 Pool_🇳🇱NL_1660
-      - 🇷🇴 Pool_🇷🇴RO_137
-      - 🇷🇴 Pool_🇷🇴RO_138
-      - 🇷🇴 Pool_🇷🇴RO_143
-      - 🇷🇴 Pool_🇷🇴RO_147
-      - 🇷🇴 Pool_🇷🇴RO_1852
-      - 🇷🇴 Pool_🇷🇴RO_1891
-      - 🇷🇴 Pool_🇷🇴RO_1892
-      - 🇷🇴 Pool_🇷🇴RO_1899
-      - 🇷🇴 Pool_🇷🇴RO_1916
-      - 🇷🇴 Pool_🇷🇴RO_2776 |28.65Mb
-      - 🇷🇴 Pool_🇷🇴RO_2792 |27.55Mb
-      - 🇷🇴 Pool_🇷🇴RO_2831 |26.77Mb
-      - 🇷🇴 Pool_🇷🇴RO_2838 |27.72Mb
-      - 🇷🇴 Pool_🇷🇴RO_2871 |23.37Mb
-      - 🇷🇺 Pool_🇷🇺RU_1933
-      - 🇸🇪 Pool_🇸🇪SE_1947
-      - 🇸🇬 SG_1909 |16.19Mb
-      - 🇸🇬 SG_1962
-      - 🇺🇸 Pool_🇺🇸US_170
-      - 🇺🇸 Pool_🇺🇸US_172
-      - 🇺🇸 Pool_🇺🇸US_175
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇺🇸 Pool_🇺🇸US_178
-      - 🇺🇸 Pool_🇺🇸US_191
-      - 🇺🇸 Pool_🇺🇸US_200
-      - 🇺🇸 Pool_🇺🇸US_2060
-      - 🇺🇸 Pool_🇺🇸US_2092
-      - 🇺🇸 Pool_🇺🇸US_2106
-      - 🇺🇸 Pool_🇺🇸US_2119 |20.14Mb
-      - 🇺🇸 Pool_🇺🇸US_2147
-      - 🇺🇸 Pool_🇺🇸US_2163
-      - 🇺🇸 Pool_🇺🇸US_220
-      - 🇺🇸 Pool_🇺🇸US_2222
-      - 🇺🇸 Pool_🇺🇸US_2259
-      - 🇺🇸 Pool_🇺🇸US_227
-      - 🇺🇸 Pool_🇺🇸US_2280
-      - 🇺🇸 Pool_🇺🇸US_2283
-      - 🇺🇸 Pool_🇺🇸US_230
-      - 🇺🇸 Pool_🇺🇸US_2351
-      - 🇺🇸 Pool_🇺🇸US_2370
-      - 🇺🇸 Pool_🇺🇸US_2375
-      - 🇺🇸 Pool_🇺🇸US_2390
-      - 🇺🇸 Pool_🇺🇸US_244
-      - 🇺🇸 Pool_🇺🇸US_245
-      - 🇺🇸 Pool_🇺🇸US_2476
-      - 🇺🇸 Pool_🇺🇸US_2477
-      - 🇺🇸 Pool_🇺🇸US_2480
-      - 🇺🇸 Pool_🇺🇸US_2527
-      - 🇺🇸 Pool_🇺🇸US_254
-      - 🇺🇸 Pool_🇺🇸US_2563
-      - 🇺🇸 Pool_🇺🇸US_2612
-      - 🇺🇸 Pool_🇺🇸US_2622
-      - 🇺🇸 Pool_🇺🇸US_2650
-      - 🇺🇸 Pool_🇺🇸US_2658
-      - 🇺🇸 Pool_🇺🇸US_2678
-      - 🇺🇸 Pool_🇺🇸US_2688
-      - 🇺🇸 Pool_🇺🇸US_3688 |22.62Mb
-      - 🇺🇸 Pool_🇺🇸US_3939 |26.77Mb
-      - 🇺🇸 Pool_🇺🇸US_4151 |29.78Mb
-      - 🇺🇸 US_2421
-      - 🇺🇸 US_2643
+      - (感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 4
+      - (感谢关注youtube：8度科技) 5
+      - (感谢关注youtube：8度科技) 6
+      - (感谢关注youtube：8度科技) 7
+      - (感谢关注youtube：8度科技) 8
+      - (感谢关注youtube：8度科技) 9
+      - (感谢关注youtube：8度科技) 10
+      - (感谢关注youtube：8度科技) 11
+      - (感谢关注youtube：8度科技) 12
+      - (感谢关注youtube：8度科技) 13
+      - (感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技)
+      - 巴林(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技) 2
+      - 波兰(感谢关注youtube：8度科技) 3
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 12
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 🇿🇦 南非(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技)
+      - 欧洲(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技) 3
+      - 西班牙(感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技) 2
+      - 西班牙(感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 15
+      - (感谢关注youtube：8度科技) 16
+      - (感谢关注youtube：8度科技) 17
+      - (感谢关注youtube：8度科技) 18
+      - (感谢关注youtube：8度科技) 19
+      - (感谢关注youtube：8度科技) 20
+      - (感谢关注youtube：8度科技) 21
+      - (感谢关注youtube：8度科技) 22
+      - (感谢关注youtube：8度科技) 23
+      - (感谢关注youtube：8度科技) 24
+      - (感谢关注youtube：8度科技) 25
+      - 🇺🇸 US(感谢关注youtube：8度科技)
+      - 🇺🇸 US(感谢关注youtube：8度科技) 2
+      - AZ(感谢关注youtube：8度科技)
+      - CY(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 26
+      - 🇨🇦 加拿大(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 16
+      - 欧洲(感谢关注youtube：8度科技) 4
+      - 西班牙(感谢关注youtube：8度科技) 4
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -874,143 +412,66 @@ proxy-groups:
       - 🎯 全球直连
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
-      - CA_422
-      - GB_1414 |24.13Mb
-      - GB_1440 |27.16Mb
-      - Pool_🇦🇱AL_31
-      - Pool_🇦🇱AL_48
-      - Pool_🇦🇹AT_69
-      - Pool_🇦🇿AZ_278
-      - Pool_🇧🇦BA_299
-      - Pool_🇧🇿BZ_390
-      - Pool_🇨🇦CA_412
-      - Pool_🇨🇦CA_418
-      - Pool_🇨🇦CA_429
-      - Pool_🇨🇦CA_432
-      - Pool_🇨🇦CA_435
-      - Pool_🇨🇾CY_516
-      - Pool_🇨🇿CZ_534
-      - Pool_🇨🇿CZ_537
-      - Pool_🇩🇰DK_31
-      - Pool_🇩🇰DK_45
-      - Pool_🇩🇰DK_622
-      - Pool_🇩🇰DK_630
-      - Pool_🇩🇰DK_650
-      - Pool_🇪🇪EE_697
-      - Pool_🇫🇮FI_801
-      - Pool_🇫🇮FI_802
-      - Pool_🇫🇮FI_817
-      - Pool_🇫🇮FI_818
-      - Pool_🇫🇮FI_819
-      - Pool_🇬🇧GB_1012
-      - Pool_🇬🇧GB_1044
-      - Pool_🇬🇧GB_1111
-      - Pool_🇬🇧GB_1117
-      - Pool_🇬🇧GB_84
-      - Pool_🇬🇧GB_88
-      - Pool_🇭🇺HU_1223
-      - Pool_🇮🇪IE_1238
-      - Pool_🇮🇪IE_1239
-      - Pool_🇮🇪IE_1254
-      - Pool_🇮🇹IT_112
-      - Pool_🇮🇹IT_1328
-      - Pool_🇱🇻LV_118
-      - Pool_🇱🇻LV_121
-      - Pool_🇱🇻LV_1562
-      - Pool_🇱🇻LV_2295 |18.12Mb
-      - Pool_🇱🇻LV_2315 |29.66Mb
-      - Pool_🇱🇻LV_2316 |27.67Mb
-      - Pool_🇲🇰MK_1585
-      - Pool_🇲🇰MK_1594
-      - Pool_🇲🇰MK_1599
-      - Pool_🇺🇦UA_2051
-      - Pool_🏁ZZ_271
-      - Pool_🏁ZZ_275
-      - Pool_🏁ZZ_276
-      - Pool_🏁ZZ_277
-      - Pool_🏁ZZ_2864
-      - 🇦🇺 Pool_🇦🇺AU_135
-      - 🇦🇺 Pool_🇦🇺AU_145
-      - 🇦🇺 Pool_🇦🇺AU_207
-      - 🇦🇺 Pool_🇦🇺AU_236
-      - 🇨🇳 Pool_🇹🇼TW_2011
-      - 🇩🇪 Pool_🇩🇪DE_563
-      - 🇪🇸 Pool_🇪🇸ES_1005 |24.38Mb
-      - 🇪🇸 Pool_🇪🇸ES_1035 |26.46Mb
-      - 🇪🇸 Pool_🇪🇸ES_1046 |27.50Mb
-      - 🇪🇸 Pool_🇪🇸ES_710 |25.12Mb
-      - 🇪🇸 Pool_🇪🇸ES_715
-      - 🇪🇸 Pool_🇪🇸ES_725
-      - 🇪🇸 Pool_🇪🇸ES_763
-      - 🇪🇸 Pool_🇪🇸ES_970 |26.61Mb
-      - 🇫🇷 FR_1138 |23.81Mb
-      - 🇫🇷 FR_927
-      - 🇫🇷 Pool_🇫🇷FR_910
-      - 🇳🇱 Pool_🇳🇱NL_125
-      - 🇳🇱 Pool_🇳🇱NL_1641
-      - 🇳🇱 Pool_🇳🇱NL_1654
-      - 🇳🇱 Pool_🇳🇱NL_1660
-      - 🇷🇴 Pool_🇷🇴RO_137
-      - 🇷🇴 Pool_🇷🇴RO_138
-      - 🇷🇴 Pool_🇷🇴RO_143
-      - 🇷🇴 Pool_🇷🇴RO_147
-      - 🇷🇴 Pool_🇷🇴RO_1852
-      - 🇷🇴 Pool_🇷🇴RO_1891
-      - 🇷🇴 Pool_🇷🇴RO_1892
-      - 🇷🇴 Pool_🇷🇴RO_1899
-      - 🇷🇴 Pool_🇷🇴RO_1916
-      - 🇷🇴 Pool_🇷🇴RO_2776 |28.65Mb
-      - 🇷🇴 Pool_🇷🇴RO_2792 |27.55Mb
-      - 🇷🇴 Pool_🇷🇴RO_2831 |26.77Mb
-      - 🇷🇴 Pool_🇷🇴RO_2838 |27.72Mb
-      - 🇷🇴 Pool_🇷🇴RO_2871 |23.37Mb
-      - 🇷🇺 Pool_🇷🇺RU_1933
-      - 🇸🇪 Pool_🇸🇪SE_1947
-      - 🇸🇬 SG_1909 |16.19Mb
-      - 🇸🇬 SG_1962
-      - 🇺🇸 Pool_🇺🇸US_170
-      - 🇺🇸 Pool_🇺🇸US_172
-      - 🇺🇸 Pool_🇺🇸US_175
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇺🇸 Pool_🇺🇸US_178
-      - 🇺🇸 Pool_🇺🇸US_191
-      - 🇺🇸 Pool_🇺🇸US_200
-      - 🇺🇸 Pool_🇺🇸US_2060
-      - 🇺🇸 Pool_🇺🇸US_2092
-      - 🇺🇸 Pool_🇺🇸US_2106
-      - 🇺🇸 Pool_🇺🇸US_2119 |20.14Mb
-      - 🇺🇸 Pool_🇺🇸US_2147
-      - 🇺🇸 Pool_🇺🇸US_2163
-      - 🇺🇸 Pool_🇺🇸US_220
-      - 🇺🇸 Pool_🇺🇸US_2222
-      - 🇺🇸 Pool_🇺🇸US_2259
-      - 🇺🇸 Pool_🇺🇸US_227
-      - 🇺🇸 Pool_🇺🇸US_2280
-      - 🇺🇸 Pool_🇺🇸US_2283
-      - 🇺🇸 Pool_🇺🇸US_230
-      - 🇺🇸 Pool_🇺🇸US_2351
-      - 🇺🇸 Pool_🇺🇸US_2370
-      - 🇺🇸 Pool_🇺🇸US_2375
-      - 🇺🇸 Pool_🇺🇸US_2390
-      - 🇺🇸 Pool_🇺🇸US_244
-      - 🇺🇸 Pool_🇺🇸US_245
-      - 🇺🇸 Pool_🇺🇸US_2476
-      - 🇺🇸 Pool_🇺🇸US_2477
-      - 🇺🇸 Pool_🇺🇸US_2480
-      - 🇺🇸 Pool_🇺🇸US_2527
-      - 🇺🇸 Pool_🇺🇸US_254
-      - 🇺🇸 Pool_🇺🇸US_2563
-      - 🇺🇸 Pool_🇺🇸US_2612
-      - 🇺🇸 Pool_🇺🇸US_2622
-      - 🇺🇸 Pool_🇺🇸US_2650
-      - 🇺🇸 Pool_🇺🇸US_2658
-      - 🇺🇸 Pool_🇺🇸US_2678
-      - 🇺🇸 Pool_🇺🇸US_2688
-      - 🇺🇸 Pool_🇺🇸US_3688 |22.62Mb
-      - 🇺🇸 Pool_🇺🇸US_3939 |26.77Mb
-      - 🇺🇸 Pool_🇺🇸US_4151 |29.78Mb
-      - 🇺🇸 US_2421
-      - 🇺🇸 US_2643
+      - (感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 4
+      - (感谢关注youtube：8度科技) 5
+      - (感谢关注youtube：8度科技) 6
+      - (感谢关注youtube：8度科技) 7
+      - (感谢关注youtube：8度科技) 8
+      - (感谢关注youtube：8度科技) 9
+      - (感谢关注youtube：8度科技) 10
+      - (感谢关注youtube：8度科技) 11
+      - (感谢关注youtube：8度科技) 12
+      - (感谢关注youtube：8度科技) 13
+      - (感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技)
+      - 巴林(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技) 2
+      - 波兰(感谢关注youtube：8度科技) 3
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 12
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 🇿🇦 南非(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技)
+      - 欧洲(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技) 3
+      - 西班牙(感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技) 2
+      - 西班牙(感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 15
+      - (感谢关注youtube：8度科技) 16
+      - (感谢关注youtube：8度科技) 17
+      - (感谢关注youtube：8度科技) 18
+      - (感谢关注youtube：8度科技) 19
+      - (感谢关注youtube：8度科技) 20
+      - (感谢关注youtube：8度科技) 21
+      - (感谢关注youtube：8度科技) 22
+      - (感谢关注youtube：8度科技) 23
+      - (感谢关注youtube：8度科技) 24
+      - (感谢关注youtube：8度科技) 25
+      - 🇺🇸 US(感谢关注youtube：8度科技)
+      - 🇺🇸 US(感谢关注youtube：8度科技) 2
+      - AZ(感谢关注youtube：8度科技)
+      - CY(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 26
+      - 🇨🇦 加拿大(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 16
+      - 欧洲(感谢关注youtube：8度科技) 4
+      - 西班牙(感谢关注youtube：8度科技) 4
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -1019,143 +480,66 @@ proxy-groups:
       - ♻️ 自动选择
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
-      - CA_422
-      - GB_1414 |24.13Mb
-      - GB_1440 |27.16Mb
-      - Pool_🇦🇱AL_31
-      - Pool_🇦🇱AL_48
-      - Pool_🇦🇹AT_69
-      - Pool_🇦🇿AZ_278
-      - Pool_🇧🇦BA_299
-      - Pool_🇧🇿BZ_390
-      - Pool_🇨🇦CA_412
-      - Pool_🇨🇦CA_418
-      - Pool_🇨🇦CA_429
-      - Pool_🇨🇦CA_432
-      - Pool_🇨🇦CA_435
-      - Pool_🇨🇾CY_516
-      - Pool_🇨🇿CZ_534
-      - Pool_🇨🇿CZ_537
-      - Pool_🇩🇰DK_31
-      - Pool_🇩🇰DK_45
-      - Pool_🇩🇰DK_622
-      - Pool_🇩🇰DK_630
-      - Pool_🇩🇰DK_650
-      - Pool_🇪🇪EE_697
-      - Pool_🇫🇮FI_801
-      - Pool_🇫🇮FI_802
-      - Pool_🇫🇮FI_817
-      - Pool_🇫🇮FI_818
-      - Pool_🇫🇮FI_819
-      - Pool_🇬🇧GB_1012
-      - Pool_🇬🇧GB_1044
-      - Pool_🇬🇧GB_1111
-      - Pool_🇬🇧GB_1117
-      - Pool_🇬🇧GB_84
-      - Pool_🇬🇧GB_88
-      - Pool_🇭🇺HU_1223
-      - Pool_🇮🇪IE_1238
-      - Pool_🇮🇪IE_1239
-      - Pool_🇮🇪IE_1254
-      - Pool_🇮🇹IT_112
-      - Pool_🇮🇹IT_1328
-      - Pool_🇱🇻LV_118
-      - Pool_🇱🇻LV_121
-      - Pool_🇱🇻LV_1562
-      - Pool_🇱🇻LV_2295 |18.12Mb
-      - Pool_🇱🇻LV_2315 |29.66Mb
-      - Pool_🇱🇻LV_2316 |27.67Mb
-      - Pool_🇲🇰MK_1585
-      - Pool_🇲🇰MK_1594
-      - Pool_🇲🇰MK_1599
-      - Pool_🇺🇦UA_2051
-      - Pool_🏁ZZ_271
-      - Pool_🏁ZZ_275
-      - Pool_🏁ZZ_276
-      - Pool_🏁ZZ_277
-      - Pool_🏁ZZ_2864
-      - 🇦🇺 Pool_🇦🇺AU_135
-      - 🇦🇺 Pool_🇦🇺AU_145
-      - 🇦🇺 Pool_🇦🇺AU_207
-      - 🇦🇺 Pool_🇦🇺AU_236
-      - 🇨🇳 Pool_🇹🇼TW_2011
-      - 🇩🇪 Pool_🇩🇪DE_563
-      - 🇪🇸 Pool_🇪🇸ES_1005 |24.38Mb
-      - 🇪🇸 Pool_🇪🇸ES_1035 |26.46Mb
-      - 🇪🇸 Pool_🇪🇸ES_1046 |27.50Mb
-      - 🇪🇸 Pool_🇪🇸ES_710 |25.12Mb
-      - 🇪🇸 Pool_🇪🇸ES_715
-      - 🇪🇸 Pool_🇪🇸ES_725
-      - 🇪🇸 Pool_🇪🇸ES_763
-      - 🇪🇸 Pool_🇪🇸ES_970 |26.61Mb
-      - 🇫🇷 FR_1138 |23.81Mb
-      - 🇫🇷 FR_927
-      - 🇫🇷 Pool_🇫🇷FR_910
-      - 🇳🇱 Pool_🇳🇱NL_125
-      - 🇳🇱 Pool_🇳🇱NL_1641
-      - 🇳🇱 Pool_🇳🇱NL_1654
-      - 🇳🇱 Pool_🇳🇱NL_1660
-      - 🇷🇴 Pool_🇷🇴RO_137
-      - 🇷🇴 Pool_🇷🇴RO_138
-      - 🇷🇴 Pool_🇷🇴RO_143
-      - 🇷🇴 Pool_🇷🇴RO_147
-      - 🇷🇴 Pool_🇷🇴RO_1852
-      - 🇷🇴 Pool_🇷🇴RO_1891
-      - 🇷🇴 Pool_🇷🇴RO_1892
-      - 🇷🇴 Pool_🇷🇴RO_1899
-      - 🇷🇴 Pool_🇷🇴RO_1916
-      - 🇷🇴 Pool_🇷🇴RO_2776 |28.65Mb
-      - 🇷🇴 Pool_🇷🇴RO_2792 |27.55Mb
-      - 🇷🇴 Pool_🇷🇴RO_2831 |26.77Mb
-      - 🇷🇴 Pool_🇷🇴RO_2838 |27.72Mb
-      - 🇷🇴 Pool_🇷🇴RO_2871 |23.37Mb
-      - 🇷🇺 Pool_🇷🇺RU_1933
-      - 🇸🇪 Pool_🇸🇪SE_1947
-      - 🇸🇬 SG_1909 |16.19Mb
-      - 🇸🇬 SG_1962
-      - 🇺🇸 Pool_🇺🇸US_170
-      - 🇺🇸 Pool_🇺🇸US_172
-      - 🇺🇸 Pool_🇺🇸US_175
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇺🇸 Pool_🇺🇸US_178
-      - 🇺🇸 Pool_🇺🇸US_191
-      - 🇺🇸 Pool_🇺🇸US_200
-      - 🇺🇸 Pool_🇺🇸US_2060
-      - 🇺🇸 Pool_🇺🇸US_2092
-      - 🇺🇸 Pool_🇺🇸US_2106
-      - 🇺🇸 Pool_🇺🇸US_2119 |20.14Mb
-      - 🇺🇸 Pool_🇺🇸US_2147
-      - 🇺🇸 Pool_🇺🇸US_2163
-      - 🇺🇸 Pool_🇺🇸US_220
-      - 🇺🇸 Pool_🇺🇸US_2222
-      - 🇺🇸 Pool_🇺🇸US_2259
-      - 🇺🇸 Pool_🇺🇸US_227
-      - 🇺🇸 Pool_🇺🇸US_2280
-      - 🇺🇸 Pool_🇺🇸US_2283
-      - 🇺🇸 Pool_🇺🇸US_230
-      - 🇺🇸 Pool_🇺🇸US_2351
-      - 🇺🇸 Pool_🇺🇸US_2370
-      - 🇺🇸 Pool_🇺🇸US_2375
-      - 🇺🇸 Pool_🇺🇸US_2390
-      - 🇺🇸 Pool_🇺🇸US_244
-      - 🇺🇸 Pool_🇺🇸US_245
-      - 🇺🇸 Pool_🇺🇸US_2476
-      - 🇺🇸 Pool_🇺🇸US_2477
-      - 🇺🇸 Pool_🇺🇸US_2480
-      - 🇺🇸 Pool_🇺🇸US_2527
-      - 🇺🇸 Pool_🇺🇸US_254
-      - 🇺🇸 Pool_🇺🇸US_2563
-      - 🇺🇸 Pool_🇺🇸US_2612
-      - 🇺🇸 Pool_🇺🇸US_2622
-      - 🇺🇸 Pool_🇺🇸US_2650
-      - 🇺🇸 Pool_🇺🇸US_2658
-      - 🇺🇸 Pool_🇺🇸US_2678
-      - 🇺🇸 Pool_🇺🇸US_2688
-      - 🇺🇸 Pool_🇺🇸US_3688 |22.62Mb
-      - 🇺🇸 Pool_🇺🇸US_3939 |26.77Mb
-      - 🇺🇸 Pool_🇺🇸US_4151 |29.78Mb
-      - 🇺🇸 US_2421
-      - 🇺🇸 US_2643
+      - (感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 4
+      - (感谢关注youtube：8度科技) 5
+      - (感谢关注youtube：8度科技) 6
+      - (感谢关注youtube：8度科技) 7
+      - (感谢关注youtube：8度科技) 8
+      - (感谢关注youtube：8度科技) 9
+      - (感谢关注youtube：8度科技) 10
+      - (感谢关注youtube：8度科技) 11
+      - (感谢关注youtube：8度科技) 12
+      - (感谢关注youtube：8度科技) 13
+      - (感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技)
+      - 巴林(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技) 2
+      - 波兰(感谢关注youtube：8度科技) 3
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 12
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 🇿🇦 南非(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技)
+      - 欧洲(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技) 3
+      - 西班牙(感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技) 2
+      - 西班牙(感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 15
+      - (感谢关注youtube：8度科技) 16
+      - (感谢关注youtube：8度科技) 17
+      - (感谢关注youtube：8度科技) 18
+      - (感谢关注youtube：8度科技) 19
+      - (感谢关注youtube：8度科技) 20
+      - (感谢关注youtube：8度科技) 21
+      - (感谢关注youtube：8度科技) 22
+      - (感谢关注youtube：8度科技) 23
+      - (感谢关注youtube：8度科技) 24
+      - (感谢关注youtube：8度科技) 25
+      - 🇺🇸 US(感谢关注youtube：8度科技)
+      - 🇺🇸 US(感谢关注youtube：8度科技) 2
+      - AZ(感谢关注youtube：8度科技)
+      - CY(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 26
+      - 🇨🇦 加拿大(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 16
+      - 欧洲(感谢关注youtube：8度科技) 4
+      - 西班牙(感谢关注youtube：8度科技) 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1180,143 +564,66 @@ proxy-groups:
       - ♻️ 自动选择
       - (感谢关注youtube：8度科技)
       - (感谢关注youtube：8度科技) 2
-      - CA_422
-      - GB_1414 |24.13Mb
-      - GB_1440 |27.16Mb
-      - Pool_🇦🇱AL_31
-      - Pool_🇦🇱AL_48
-      - Pool_🇦🇹AT_69
-      - Pool_🇦🇿AZ_278
-      - Pool_🇧🇦BA_299
-      - Pool_🇧🇿BZ_390
-      - Pool_🇨🇦CA_412
-      - Pool_🇨🇦CA_418
-      - Pool_🇨🇦CA_429
-      - Pool_🇨🇦CA_432
-      - Pool_🇨🇦CA_435
-      - Pool_🇨🇾CY_516
-      - Pool_🇨🇿CZ_534
-      - Pool_🇨🇿CZ_537
-      - Pool_🇩🇰DK_31
-      - Pool_🇩🇰DK_45
-      - Pool_🇩🇰DK_622
-      - Pool_🇩🇰DK_630
-      - Pool_🇩🇰DK_650
-      - Pool_🇪🇪EE_697
-      - Pool_🇫🇮FI_801
-      - Pool_🇫🇮FI_802
-      - Pool_🇫🇮FI_817
-      - Pool_🇫🇮FI_818
-      - Pool_🇫🇮FI_819
-      - Pool_🇬🇧GB_1012
-      - Pool_🇬🇧GB_1044
-      - Pool_🇬🇧GB_1111
-      - Pool_🇬🇧GB_1117
-      - Pool_🇬🇧GB_84
-      - Pool_🇬🇧GB_88
-      - Pool_🇭🇺HU_1223
-      - Pool_🇮🇪IE_1238
-      - Pool_🇮🇪IE_1239
-      - Pool_🇮🇪IE_1254
-      - Pool_🇮🇹IT_112
-      - Pool_🇮🇹IT_1328
-      - Pool_🇱🇻LV_118
-      - Pool_🇱🇻LV_121
-      - Pool_🇱🇻LV_1562
-      - Pool_🇱🇻LV_2295 |18.12Mb
-      - Pool_🇱🇻LV_2315 |29.66Mb
-      - Pool_🇱🇻LV_2316 |27.67Mb
-      - Pool_🇲🇰MK_1585
-      - Pool_🇲🇰MK_1594
-      - Pool_🇲🇰MK_1599
-      - Pool_🇺🇦UA_2051
-      - Pool_🏁ZZ_271
-      - Pool_🏁ZZ_275
-      - Pool_🏁ZZ_276
-      - Pool_🏁ZZ_277
-      - Pool_🏁ZZ_2864
-      - 🇦🇺 Pool_🇦🇺AU_135
-      - 🇦🇺 Pool_🇦🇺AU_145
-      - 🇦🇺 Pool_🇦🇺AU_207
-      - 🇦🇺 Pool_🇦🇺AU_236
-      - 🇨🇳 Pool_🇹🇼TW_2011
-      - 🇩🇪 Pool_🇩🇪DE_563
-      - 🇪🇸 Pool_🇪🇸ES_1005 |24.38Mb
-      - 🇪🇸 Pool_🇪🇸ES_1035 |26.46Mb
-      - 🇪🇸 Pool_🇪🇸ES_1046 |27.50Mb
-      - 🇪🇸 Pool_🇪🇸ES_710 |25.12Mb
-      - 🇪🇸 Pool_🇪🇸ES_715
-      - 🇪🇸 Pool_🇪🇸ES_725
-      - 🇪🇸 Pool_🇪🇸ES_763
-      - 🇪🇸 Pool_🇪🇸ES_970 |26.61Mb
-      - 🇫🇷 FR_1138 |23.81Mb
-      - 🇫🇷 FR_927
-      - 🇫🇷 Pool_🇫🇷FR_910
-      - 🇳🇱 Pool_🇳🇱NL_125
-      - 🇳🇱 Pool_🇳🇱NL_1641
-      - 🇳🇱 Pool_🇳🇱NL_1654
-      - 🇳🇱 Pool_🇳🇱NL_1660
-      - 🇷🇴 Pool_🇷🇴RO_137
-      - 🇷🇴 Pool_🇷🇴RO_138
-      - 🇷🇴 Pool_🇷🇴RO_143
-      - 🇷🇴 Pool_🇷🇴RO_147
-      - 🇷🇴 Pool_🇷🇴RO_1852
-      - 🇷🇴 Pool_🇷🇴RO_1891
-      - 🇷🇴 Pool_🇷🇴RO_1892
-      - 🇷🇴 Pool_🇷🇴RO_1899
-      - 🇷🇴 Pool_🇷🇴RO_1916
-      - 🇷🇴 Pool_🇷🇴RO_2776 |28.65Mb
-      - 🇷🇴 Pool_🇷🇴RO_2792 |27.55Mb
-      - 🇷🇴 Pool_🇷🇴RO_2831 |26.77Mb
-      - 🇷🇴 Pool_🇷🇴RO_2838 |27.72Mb
-      - 🇷🇴 Pool_🇷🇴RO_2871 |23.37Mb
-      - 🇷🇺 Pool_🇷🇺RU_1933
-      - 🇸🇪 Pool_🇸🇪SE_1947
-      - 🇸🇬 SG_1909 |16.19Mb
-      - 🇸🇬 SG_1962
-      - 🇺🇸 Pool_🇺🇸US_170
-      - 🇺🇸 Pool_🇺🇸US_172
-      - 🇺🇸 Pool_🇺🇸US_175
-      - 🇺🇸 Pool_🇺🇸US_176
-      - 🇺🇸 Pool_🇺🇸US_178
-      - 🇺🇸 Pool_🇺🇸US_191
-      - 🇺🇸 Pool_🇺🇸US_200
-      - 🇺🇸 Pool_🇺🇸US_2060
-      - 🇺🇸 Pool_🇺🇸US_2092
-      - 🇺🇸 Pool_🇺🇸US_2106
-      - 🇺🇸 Pool_🇺🇸US_2119 |20.14Mb
-      - 🇺🇸 Pool_🇺🇸US_2147
-      - 🇺🇸 Pool_🇺🇸US_2163
-      - 🇺🇸 Pool_🇺🇸US_220
-      - 🇺🇸 Pool_🇺🇸US_2222
-      - 🇺🇸 Pool_🇺🇸US_2259
-      - 🇺🇸 Pool_🇺🇸US_227
-      - 🇺🇸 Pool_🇺🇸US_2280
-      - 🇺🇸 Pool_🇺🇸US_2283
-      - 🇺🇸 Pool_🇺🇸US_230
-      - 🇺🇸 Pool_🇺🇸US_2351
-      - 🇺🇸 Pool_🇺🇸US_2370
-      - 🇺🇸 Pool_🇺🇸US_2375
-      - 🇺🇸 Pool_🇺🇸US_2390
-      - 🇺🇸 Pool_🇺🇸US_244
-      - 🇺🇸 Pool_🇺🇸US_245
-      - 🇺🇸 Pool_🇺🇸US_2476
-      - 🇺🇸 Pool_🇺🇸US_2477
-      - 🇺🇸 Pool_🇺🇸US_2480
-      - 🇺🇸 Pool_🇺🇸US_2527
-      - 🇺🇸 Pool_🇺🇸US_254
-      - 🇺🇸 Pool_🇺🇸US_2563
-      - 🇺🇸 Pool_🇺🇸US_2612
-      - 🇺🇸 Pool_🇺🇸US_2622
-      - 🇺🇸 Pool_🇺🇸US_2650
-      - 🇺🇸 Pool_🇺🇸US_2658
-      - 🇺🇸 Pool_🇺🇸US_2678
-      - 🇺🇸 Pool_🇺🇸US_2688
-      - 🇺🇸 Pool_🇺🇸US_3688 |22.62Mb
-      - 🇺🇸 Pool_🇺🇸US_3939 |26.77Mb
-      - 🇺🇸 Pool_🇺🇸US_4151 |29.78Mb
-      - 🇺🇸 US_2421
-      - 🇺🇸 US_2643
+      - (感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 4
+      - (感谢关注youtube：8度科技) 5
+      - (感谢关注youtube：8度科技) 6
+      - (感谢关注youtube：8度科技) 7
+      - (感谢关注youtube：8度科技) 8
+      - (感谢关注youtube：8度科技) 9
+      - (感谢关注youtube：8度科技) 10
+      - (感谢关注youtube：8度科技) 11
+      - (感谢关注youtube：8度科技) 12
+      - (感谢关注youtube：8度科技) 13
+      - (感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技)
+      - 巴林(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技)
+      - 波兰(感谢关注youtube：8度科技) 2
+      - 波兰(感谢关注youtube：8度科技) 3
+      - 🇷🇺 俄罗斯(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 2
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 3
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 4
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 5
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 6
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 7
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 8
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 9
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 10
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 11
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 12
+      - 🇿🇦 南非(感谢关注youtube：8度科技)
+      - 🇿🇦 南非(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技)
+      - 欧洲(感谢关注youtube：8度科技) 2
+      - 欧洲(感谢关注youtube：8度科技) 3
+      - 西班牙(感谢关注youtube：8度科技)
+      - 西班牙(感谢关注youtube：8度科技) 2
+      - 西班牙(感谢关注youtube：8度科技) 3
+      - (感谢关注youtube：8度科技) 15
+      - (感谢关注youtube：8度科技) 16
+      - (感谢关注youtube：8度科技) 17
+      - (感谢关注youtube：8度科技) 18
+      - (感谢关注youtube：8度科技) 19
+      - (感谢关注youtube：8度科技) 20
+      - (感谢关注youtube：8度科技) 21
+      - (感谢关注youtube：8度科技) 22
+      - (感谢关注youtube：8度科技) 23
+      - (感谢关注youtube：8度科技) 24
+      - (感谢关注youtube：8度科技) 25
+      - 🇺🇸 US(感谢关注youtube：8度科技)
+      - 🇺🇸 US(感谢关注youtube：8度科技) 2
+      - AZ(感谢关注youtube：8度科技)
+      - CY(感谢关注youtube：8度科技)
+      - (感谢关注youtube：8度科技) 26
+      - 🇨🇦 加拿大(感谢关注youtube：8度科技)
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 13
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 14
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 15
+      - 🇺🇸 美国(感谢关注youtube：8度科技) 16
+      - 欧洲(感谢关注youtube：8度科技) 4
+      - 西班牙(感谢关注youtube：8度科技) 4
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -5,42 +5,49 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: PL(感谢订阅youtube：8度科技), server: 95.214.55.118, port: 41505, type: vmess, uuid: ab2a10e8-50a1-4d20-e973-b211ea6457f4, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: (感谢订阅youtube：8度科技), server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
-  - {name: (感谢订阅youtube：8度科技) 2, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: (感谢订阅youtube：8度科技) 3, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: (感谢订阅youtube：8度科技) 4, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: (感谢订阅youtube：8度科技) 5, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: (感谢订阅youtube：8度科技) 6, server: 104.200.131.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢订阅youtube：8度科技) 7, server: 104.200.131.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: (感谢订阅youtube：8度科技) 8, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢订阅youtube：8度科技), server: t3.ssrsub.one, port: 443, type: trojan, password: a0Ndyox5, sni: t3.ssrsub.one, skip-cert-verify: false}
+  - {name: (感谢订阅youtube：8度科技) 2, server: t2.ssrsub.one, port: 8443, type: trojan, password: N8l9RGMa, sni: t2.ssrsub.one, skip-cert-verify: false}
+  - {name: (感谢订阅youtube：8度科技) 3, server: t6.ssrsub.one, port: 443, type: trojan, password: QWKM5g6D, sni: t6.ssrsub.one, skip-cert-verify: false}
+  - {name: (感谢订阅youtube：8度科技) 4, server: t2.ssrsub.one, port: 443, type: trojan, password: 7LKeQVSq, sni: t2.ssrsub.one, skip-cert-verify: false}
+  - {name: (感谢订阅youtube：8度科技) 5, server: t4.ssrsub.one, port: 8443, type: trojan, password: 8l5DUdeb, sni: t4.ssrsub.one, skip-cert-verify: false}
+  - {name: (感谢订阅youtube：8度科技) 6, server: t1.ssrsub.one, port: 443, type: trojan, password: oniTKdGW, sni: t1.ssrsub.one, skip-cert-verify: false}
+  - {name: (感谢订阅youtube：8度科技) 7, server: t5.ssrsub.one, port: 443, type: trojan, password: R5DNgT2E, sni: t5.ssrsub.one, skip-cert-verify: false}
+  - {name: (感谢订阅youtube：8度科技) 8, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: (感谢订阅youtube：8度科技) 9, server: 138.199.9.202, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: (感谢订阅youtube：8度科技) 10, server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: (感谢订阅youtube：8度科技) 11, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: (感谢订阅youtube：8度科技) 12, server: 68.71.244.208, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: (感谢订阅youtube：8度科技) 13, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: (感谢订阅youtube：8度科技) 14, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: (感谢订阅youtube：8度科技) 15, server: 217.138.222.53, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: (感谢订阅youtube：8度科技) 16, server: 217.138.222.53, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (感谢订阅youtube：8度科技) 10, server: 104.200.131.245, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: (感谢订阅youtube：8度科技) 11, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: (感谢订阅youtube：8度科技) 12, server: 104.200.131.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢订阅youtube：8度科技) 13, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢订阅youtube：8度科技) 14, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: (感谢订阅youtube：8度科技) 15, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: (感谢订阅youtube：8度科技) 16, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
   - {name: (感谢订阅youtube：8度科技) 17, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: (感谢订阅youtube：8度科技) 18, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: (感谢订阅youtube：8度科技) 19, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢订阅youtube：8度科技) 18, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: (感谢订阅youtube：8度科技) 19, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: (感谢订阅youtube：8度科技) 20, server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢订阅youtube：8度科技) 21, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: (感谢订阅youtube：8度科技) 22, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: (感谢订阅youtube：8度科技) 23, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: (感谢订阅youtube：8度科技) 24, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: (感谢订阅youtube：8度科技) 25, server: 217.138.222.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: (感谢订阅youtube：8度科技) 26, server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: (感谢订阅youtube：8度科技) 27, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: (感谢订阅youtube：8度科技) 28, server: 185.124.240.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢订阅youtube：8度科技) 21, server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: (感谢订阅youtube：8度科技) 22, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: (感谢订阅youtube：8度科技) 23, server: 185.124.240.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: (感谢订阅youtube：8度科技) 24, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: (感谢订阅youtube：8度科技) 25, server: 185.124.240.169, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: (感谢订阅youtube：8度科技) 26, server: 138.199.9.202, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: (感谢订阅youtube：8度科技) 27, server: 62.212.239.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: (感谢订阅youtube：8度科技) 28, server: 185.124.240.159, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: (感谢订阅youtube：8度科技) 29, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: (感谢订阅youtube：8度科技) 30, server: ss.id.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: ku382YXK8cLE}
+  - {name: (感谢订阅youtube：8度科技) 31, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: (感谢订阅youtube：8度科技) 32, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: (感谢订阅youtube：8度科技) 33, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: (感谢订阅youtube：8度科技) 34, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: (感谢订阅youtube：8度科技) 35, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: (感谢订阅youtube：8度科技) 36, server: centos.fuchau.xyz, port: 443, type: vmess, uuid: b707c9e6-3a61-4f0b-8844-9a398cfadfb7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /add76314/, ws-headers: {Host: centos.fuchau.xyz}}
+  - {name: (感谢订阅youtube：8度科技) 37, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - PL(感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技) 2
       - (感谢订阅youtube：8度科技) 3
@@ -69,12 +76,20 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 26
       - (感谢订阅youtube：8度科技) 27
       - (感谢订阅youtube：8度科技) 28
+      - (感谢订阅youtube：8度科技) 29
+      - (感谢订阅youtube：8度科技) 30
+      - (感谢订阅youtube：8度科技) 31
+      - (感谢订阅youtube：8度科技) 32
+      - (感谢订阅youtube：8度科技) 33
+      - (感谢订阅youtube：8度科技) 34
+      - (感谢订阅youtube：8度科技) 35
+      - (感谢订阅youtube：8度科技) 36
+      - (感谢订阅youtube：8度科技) 37
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - PL(感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技) 2
       - (感谢订阅youtube：8度科技) 3
@@ -103,13 +118,21 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 26
       - (感谢订阅youtube：8度科技) 27
       - (感谢订阅youtube：8度科技) 28
+      - (感谢订阅youtube：8度科技) 29
+      - (感谢订阅youtube：8度科技) 30
+      - (感谢订阅youtube：8度科技) 31
+      - (感谢订阅youtube：8度科技) 32
+      - (感谢订阅youtube：8度科技) 33
+      - (感谢订阅youtube：8度科技) 34
+      - (感谢订阅youtube：8度科技) 35
+      - (感谢订阅youtube：8度科技) 36
+      - (感谢订阅youtube：8度科技) 37
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - PL(感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技) 2
       - (感谢订阅youtube：8度科技) 3
@@ -138,6 +161,15 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 26
       - (感谢订阅youtube：8度科技) 27
       - (感谢订阅youtube：8度科技) 28
+      - (感谢订阅youtube：8度科技) 29
+      - (感谢订阅youtube：8度科技) 30
+      - (感谢订阅youtube：8度科技) 31
+      - (感谢订阅youtube：8度科技) 32
+      - (感谢订阅youtube：8度科技) 33
+      - (感谢订阅youtube：8度科技) 34
+      - (感谢订阅youtube：8度科技) 35
+      - (感谢订阅youtube：8度科技) 36
+      - (感谢订阅youtube：8度科技) 37
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -148,7 +180,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - PL(感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技) 2
       - (感谢订阅youtube：8度科技) 3
@@ -177,12 +208,20 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 26
       - (感谢订阅youtube：8度科技) 27
       - (感谢订阅youtube：8度科技) 28
+      - (感谢订阅youtube：8度科技) 29
+      - (感谢订阅youtube：8度科技) 30
+      - (感谢订阅youtube：8度科技) 31
+      - (感谢订阅youtube：8度科技) 32
+      - (感谢订阅youtube：8度科技) 33
+      - (感谢订阅youtube：8度科技) 34
+      - (感谢订阅youtube：8度科技) 35
+      - (感谢订阅youtube：8度科技) 36
+      - (感谢订阅youtube：8度科技) 37
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - PL(感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技) 2
       - (感谢订阅youtube：8度科技) 3
@@ -211,13 +250,21 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 26
       - (感谢订阅youtube：8度科技) 27
       - (感谢订阅youtube：8度科技) 28
+      - (感谢订阅youtube：8度科技) 29
+      - (感谢订阅youtube：8度科技) 30
+      - (感谢订阅youtube：8度科技) 31
+      - (感谢订阅youtube：8度科技) 32
+      - (感谢订阅youtube：8度科技) 33
+      - (感谢订阅youtube：8度科技) 34
+      - (感谢订阅youtube：8度科技) 35
+      - (感谢订阅youtube：8度科技) 36
+      - (感谢订阅youtube：8度科技) 37
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - PL(感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技) 2
       - (感谢订阅youtube：8度科技) 3
@@ -246,6 +293,15 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 26
       - (感谢订阅youtube：8度科技) 27
       - (感谢订阅youtube：8度科技) 28
+      - (感谢订阅youtube：8度科技) 29
+      - (感谢订阅youtube：8度科技) 30
+      - (感谢订阅youtube：8度科技) 31
+      - (感谢订阅youtube：8度科技) 32
+      - (感谢订阅youtube：8度科技) 33
+      - (感谢订阅youtube：8度科技) 34
+      - (感谢订阅youtube：8度科技) 35
+      - (感谢订阅youtube：8度科技) 36
+      - (感谢订阅youtube：8度科技) 37
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -261,7 +317,6 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - PL(感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技)
       - (感谢订阅youtube：8度科技) 2
       - (感谢订阅youtube：8度科技) 3
@@ -290,6 +345,15 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 26
       - (感谢订阅youtube：8度科技) 27
       - (感谢订阅youtube：8度科技) 28
+      - (感谢订阅youtube：8度科技) 29
+      - (感谢订阅youtube：8度科技) 30
+      - (感谢订阅youtube：8度科技) 31
+      - (感谢订阅youtube：8度科技) 32
+      - (感谢订阅youtube：8度科技) 33
+      - (感谢订阅youtube：8度科技) 34
+      - (感谢订阅youtube：8度科技) 35
+      - (感谢订阅youtube：8度科技) 36
+      - (感谢订阅youtube：8度科技) 37
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

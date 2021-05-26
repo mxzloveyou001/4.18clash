@@ -75,8 +75,6 @@ proxies:
   - {name: (感谢订阅youtube：8度科技) 14, server: t3.ssrsub.one, port: 8443, type: trojan, password: 1PVhDs6Z, sni: t3.ssrsub.one}
   - {name: (感谢订阅youtube：8度科技) 15, server: t1.ssrsub.one, port: 8443, type: trojan, password: tgJX9TkN, sni: t1.ssrsub.one}
   - {name: 🇨🇦 加拿大(感谢订阅youtube：8度科技), server: t1.ssrsub.one, port: 443, type: trojan, password: ErcILMD9, sni: t1.ssrsub.one}
-  - {name: 🇨🇦 加拿大(感谢订阅youtube：8度科技) 2, server: t3.ssrsub.one, port: 443, type: trojan, password: OphX58kC, sni: t3.ssrsub.one}
-  - {name: (感谢订阅youtube：8度科技) 16, server: t4.ssrsub.one, port: 443, type: trojan, password: H5i0RJMt, sni: t4.ssrsub.one}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -153,8 +151,6 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 14
       - (感谢订阅youtube：8度科技) 15
       - 🇨🇦 加拿大(感谢订阅youtube：8度科技)
-      - 🇨🇦 加拿大(感谢订阅youtube：8度科技) 2
-      - (感谢订阅youtube：8度科技) 16
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -231,8 +227,6 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 14
       - (感谢订阅youtube：8度科技) 15
       - 🇨🇦 加拿大(感谢订阅youtube：8度科技)
-      - 🇨🇦 加拿大(感谢订阅youtube：8度科技) 2
-      - (感谢订阅youtube：8度科技) 16
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -309,8 +303,6 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 14
       - (感谢订阅youtube：8度科技) 15
       - 🇨🇦 加拿大(感谢订阅youtube：8度科技)
-      - 🇨🇦 加拿大(感谢订阅youtube：8度科技) 2
-      - (感谢订阅youtube：8度科技) 16
   - name: 📲 电报信息
     type: select
     proxies:
@@ -386,8 +378,6 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 14
       - (感谢订阅youtube：8度科技) 15
       - 🇨🇦 加拿大(感谢订阅youtube：8度科技)
-      - 🇨🇦 加拿大(感谢订阅youtube：8度科技) 2
-      - (感谢订阅youtube：8度科技) 16
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -463,8 +453,6 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 14
       - (感谢订阅youtube：8度科技) 15
       - 🇨🇦 加拿大(感谢订阅youtube：8度科技)
-      - 🇨🇦 加拿大(感谢订阅youtube：8度科技) 2
-      - (感谢订阅youtube：8度科技) 16
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -540,8 +528,6 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 14
       - (感谢订阅youtube：8度科技) 15
       - 🇨🇦 加拿大(感谢订阅youtube：8度科技)
-      - 🇨🇦 加拿大(感谢订阅youtube：8度科技) 2
-      - (感谢订阅youtube：8度科技) 16
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -618,8 +604,6 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 14
       - (感谢订阅youtube：8度科技) 15
       - 🇨🇦 加拿大(感谢订阅youtube：8度科技)
-      - 🇨🇦 加拿大(感谢订阅youtube：8度科技) 2
-      - (感谢订阅youtube：8度科技) 16
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -712,8 +696,6 @@ proxy-groups:
       - (感谢订阅youtube：8度科技) 14
       - (感谢订阅youtube：8度科技) 15
       - 🇨🇦 加拿大(感谢订阅youtube：8度科技)
-      - 🇨🇦 加拿大(感谢订阅youtube：8度科技) 2
-      - (感谢订阅youtube：8度科技) 16
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

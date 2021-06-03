@@ -5,545 +5,242 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇭🇰 HK（感谢关注youtube：8度科技）, server: agals03.v2raya.xyz, port: 80, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /public, ws-headers: {Host: agals03.v2raya.xyz}}
-  - {name: 🇭🇰 HK（感谢关注youtube：8度科技） 2, server: 65.52.164.219, port: 10088, type: vmess, uuid: bf45949b-833a-49fc-acf0-e0fd169fd28a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us5.xxl123.fun}}
-  - {name: 🇭🇰 HK（感谢关注youtube：8度科技） 3, server: 65.52.164.219, port: 10009, type: vmess, uuid: bf45949b-833a-49fc-acf0-e0fd169fd28a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: jp2.xxl123.fun}}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技）, server: 183.240.60.133, port: 52000, type: vmess, uuid: 35cfbca1-385e-405f-9f1f-8b5402ef7999, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技） 2, server: cn2.relay.iplc.pro, port: 52008, type: vmess, uuid: 35cfbca1-385e-405f-9f1f-8b5402ef7999, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技） 3, server: 16.162.103.87, port: 889, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /public, ws-headers: {Host: 16.162.103.87}}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技） 4, server: ks-us-a.qjnodeip.xyz, port: 5329, type: vmess, uuid: 80e87424-d9e5-47b1-82fb-90dcc22cede2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-a.qjnodeip.xyz}}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技） 5, server: ks-us-b.qjnodeip.xyz, port: 5341, type: vmess, uuid: 80e87424-d9e5-47b1-82fb-90dcc22cede2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-b.qjnodeip.xyz}}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技） 6, server: hk1.iplc.pro, port: 52000, type: vmess, uuid: 35cfbca1-385e-405f-9f1f-8b5402ef7999, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技） 7, server: 16.162.33.111, port: 889, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /public, ws-headers: {Host: 16.162.33.111}}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技） 8, server: v2ray.wefuckgfw.ga, port: 443, type: vmess, uuid: 27a3ebe8-bc98-11eb-a251-00163c39a536, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /Akyc78tg/, ws-headers: {Host: v2ray.wefuckgfw.ga}}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技） 9, server: agals04.v2raya.xyz, port: 80, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /public, ws-headers: {Host: agals04.v2raya.xyz}}
-  - {name: 🇩🇪 德国（感谢关注youtube：8度科技）, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇩🇪 德国（感谢关注youtube：8度科技） 2, server: cn1.relay.iplc.pro, port: 52008, type: vmess, uuid: 35cfbca1-385e-405f-9f1f-8b5402ef7999, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇷🇺 俄罗斯（感谢关注youtube：8度科技）, server: vip345.xyz, port: 39015, type: vmess, uuid: 8ab4bbc2-f211-3792-b2c7-83a42eb1de54, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇷🇺 俄罗斯（感谢关注youtube：8度科技） 2, server: vip345.xyz, port: 39014, type: vmess, uuid: 8ab4bbc2-f211-3792-b2c7-83a42eb1de54, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇫🇮 芬兰（感谢关注youtube：8度科技）, server: 172.67.154.85, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇫🇮 芬兰（感谢关注youtube：8度科技） 2, server: 104.21.48.161, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇰🇷 韩国（感谢关注youtube：8度科技）, server: 65.52.164.219, port: 10003, type: vmess, uuid: bf45949b-833a-49fc-acf0-e0fd169fd28a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: kr1.xxl123.fun}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技）, server: kr-1.june628.ml, port: 20746, type: vmess, uuid: a7322b47-69cd-4fd4-aa03-476e5862954f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /By:June-@Starlink101, ws-headers: {Host: kr-1.june628.ml}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 2, server: kr.june628.ml, port: 25524, type: vmess, uuid: 7a9bde7c-404f-4467-9fb4-7e613eaf8e8b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /By:June-@Starlink101, ws-headers: {Host: kr.june628.ml}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 3, server: vip345.xyz, port: 39015, type: vmess, uuid: 8ab4bbc2-f211-3792-b2c7-83a42eb1de54, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 4, server: ks-us-c.qjnodeip.xyz, port: 5361, type: vmess, uuid: 80e87424-d9e5-47b1-82fb-90dcc22cede2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-c.qjnodeip.xyz}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 5, server: ks-us-d.qjnodeip.xyz, port: 9681, type: vmess, uuid: 80e87424-d9e5-47b1-82fb-90dcc22cede2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-d.qjnodeip.xyz}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 6, server: shcn2-04d.iplc188.com, port: 10002, type: vmess, uuid: d534be6b-0793-42d1-be19-e5bc4abe7a72, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 7, server: 52.255.146.242, port: 28380, type: vmess, uuid: a232e331-bff8-48d4-f9a6-2436cf41aa26, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 8, server: 104.18.6.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 9, server: us6.xxl123.fun, port: 8899, type: vmess, uuid: bf45949b-833a-49fc-acf0-e0fd169fd28a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us6.xxl123.fun}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 10, server: vip345.xyz, port: 39014, type: vmess, uuid: 8ab4bbc2-f211-3792-b2c7-83a42eb1de54, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 11, server: 205.185.115.178, port: 31100, type: vmess, uuid: c6583bd1-c9d8-3559-821e-c7e68c166840, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: 205.185.115.178}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 12, server: us7.xxl123.fun, port: 1888, type: vmess, uuid: bf45949b-833a-49fc-acf0-e0fd169fd28a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us7.xxl123.fun}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 13, server: cera.qqnz.com.cn, port: 443, type: vmess, uuid: a398c5fd-a7d7-49fa-a294-f4a6a076a121, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /vmessws, ws-headers: {Host: cera.qqnz.com.cn}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 14, server: us5.xxl123.fun, port: 1999, type: vmess, uuid: bf45949b-833a-49fc-acf0-e0fd169fd28a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us5.xxl123.fun}}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 15, server: vtwonet-us-a.qjnodeip.xyz, port: 8309, type: vmess, uuid: 9EA416BF-07DA-8302-9124-743FB94AA05E, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 16, server: kr-2.june628.ml, port: 32503, type: vmess, uuid: e709f578-702c-480e-cc64-4e3f4218a920, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /By:June-@Starlink101, ws-headers: {Host: kr-2.june628.ml}}
-  - {name: 🇫🇷 美国法国（感谢关注youtube：8度科技）, server: us3.xxl123.fun, port: 16666, type: vmess, uuid: bf45949b-833a-49fc-acf0-e0fd169fd28a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: us3.xxl123.fun}}
-  - {name: 未知地区（感谢关注youtube：8度科技）, server: vip345.xyz, port: 39017, type: vmess, uuid: 4e2228a1-775d-3d44-8d55-5408b252bf7f, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
-  - {name: 未知地区（感谢关注youtube：8度科技） 2, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇭🇰 香港（感谢关注youtube：8度科技）, server: 18.166.249.196, port: 889, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /public, ws-headers: {Host: 18.166.249.196}}
-  - {name: 🇭🇰 香港（感谢关注youtube：8度科技） 2, server: agals01.cloudddns.icu, port: 80, type: vmess, uuid: 5e3078ff-3676-3041-a5e3-4602bd3bc532, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /public, ws-headers: {Host: agals01.cloudddns.icu}}
-  - {name: 🇭🇰 香港（感谢关注youtube：8度科技） 3, server: hk2.direct.iplc.pro, port: 52000, type: vmess, uuid: 35cfbca1-385e-405f-9f1f-8b5402ef7999, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇭🇰 香港（感谢关注youtube：8度科技） 4, server: 65.52.164.219, port: 10001, type: vmess, uuid: bf45949b-833a-49fc-acf0-e0fd169fd28a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: hk2.xxl123.fun}}
-  - {name: 🇩🇪 德国（感谢关注youtube：8度科技） 3, server: 136.243.158.13, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: 1k4eQUgnZPRh}
-  - {name: 🇫🇷 法国（感谢关注youtube：8度科技）, server: 51.89.89.110, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: PT2VpfD8Y4T8}
-  - {name: 🇫🇷 法国（感谢关注youtube：8度科技） 2, server: 51.77.170.89, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: 7FDvhjev93bs}
-  - {name: 🇫🇷 法国（感谢关注youtube：8度科技） 3, server: 176.31.146.89, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: 7Zo1naHUEndM}
-  - {name: 立陶宛（感谢关注youtube：8度科技）, server: 194.41.112.14, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 17, server: 104.200.131.245, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 18, server: 167.88.63.29, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 19, server: 104.200.131.245, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 20, server: 104.200.131.245, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 21, server: 104.200.131.245, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 22, server: 104.200.131.245, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 23, server: 104.200.131.245, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 24, server: 104.200.131.245, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 25, server: 104.200.131.245, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 26, server: 104.200.131.245, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 27, server: 104.200.131.245, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 28, server: 104.200.131.245, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 29, server: 104.200.131.245, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 30, server: 104.200.131.245, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 31, server: 104.200.131.245, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 32, server: 104.200.131.245, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 33, server: 104.200.131.245, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 34, server: 104.200.131.245, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 35, server: 104.200.131.245, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 36, server: 207.182.155.170, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: gRcNQyKEpDEI}
-  - {name: 瑞典（感谢关注youtube：8度科技）, server: 167.88.63.29, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 瑞典（感谢关注youtube：8度科技） 2, server: 167.88.61.236, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇭🇰 HK（感谢关注youtube：8度科技） 4, server: 65.52.164.219, port: 10005, type: trojan, password: bf45949b-833a-49fc-acf0-e0fd169fd28a, skip-cert-verify: false}
-  - {name: 🇭🇰 HK（感谢关注youtube：8度科技） 5, server: 65.52.164.219, port: 10000, type: trojan, password: bf45949b-833a-49fc-acf0-e0fd169fd28a, skip-cert-verify: false}
+  - {name: 🇬🇧 英国（感谢关注youtube：8度科技）, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇬🇧 英国（感谢关注youtube：8度科技） 2, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇮🇳 印度（感谢关注youtube：8度科技）, server: in01.v2net.top, port: 443, type: vmess, uuid: 1CF6EEA3-5DE9-29C3-A21C-869DBFDF4A72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: in01.v2net.top}}
+  - {name: 🇸🇬 新加坡（感谢关注youtube：8度科技）, server: 173.230.153.162, port: 3688, type: vmess, uuid: d2cb2a8b-d2aa-4524-ae7c-2a954a88e96c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 173.230.153.162}}
+  - {name: 🇸🇬 新加坡（感谢关注youtube：8度科技） 2, server: 65.52.164.219, port: 10010, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: sg1.xxl123.fun}}
+  - {name: 未知（感谢关注youtube：8度科技）, server: gdyd.jmzhongzhuan.xyz, port: 58888, type: vmess, uuid: 01fc4f5b-395f-3c4f-a4e5-2970b7422ee6, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /v2ray, ws-headers: {Host: gdyd.jmzhongzhuan.xyz}}
+  - {name: 🇯🇵 日本（感谢关注youtube：8度科技）, server: ahl01.tedsc.online, port: 25530, type: vmess, uuid: 11fd57ff-32aa-3aba-9b31-8e80f27b0868, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ahl01.tedsc.online}}
+  - {name: 🇯🇵 日本（感谢关注youtube：8度科技） 2, server: 65.52.164.219, port: 10009, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 2, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /index, ws-headers: {Host: jp2.xxl123.fun}}
+  - {name: 🇯🇵 日本（感谢关注youtube：8度科技） 3, server: jp3.xxl123.fun, port: 80, type: vmess, uuid: bb7fbc2f-bc62-4845-b874-db45d05ddd56, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /Live, ws-headers: {Host: pull.free.video.10010.com}}
+  - {name: 🇺🇸 美国（感谢关注youtube：8度科技）, server: ks-us-d.qjnodeip.xyz, port: 9681, type: vmess, uuid: 80e87424-d9e5-47b1-82fb-90dcc22cede2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-d.qjnodeip.xyz}}
+  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 2, server: ks-us-c.qjnodeip.xyz, port: 5361, type: vmess, uuid: 80e87424-d9e5-47b1-82fb-90dcc22cede2, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-c.qjnodeip.xyz}}
+  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 3, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 4, server: 137.175.58.42, port: 443, type: vmess, uuid: 3f2ed494-f7a0-4563-bba5-4ab44fde87e6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.62884913.xyz}}
+  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 5, server: 23.224.69.18, port: 443, type: vmess, uuid: fb7a6094-a99b-4b91-a70d-25244f5f6ac8, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.76126449.xyz}}
+  - {name: 🇳🇱 荷兰（感谢关注youtube：8度科技）, server: 154.84.1.55, port: 443, type: vmess, uuid: 9636de2d-8772-4d21-b1c1-a0e065905246, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/292026011205, ws-headers: {Host: www.04887294.xyz}}
+  - {name: 🇳🇱 荷兰（感谢关注youtube：8度科技） 2, server: 154.84.1.40, port: 443, type: vmess, uuid: cee83366-2640-4400-a5d5-d61e80e6fb71, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/292026011205, ws-headers: {Host: www.23736999.xyz}}
+  - {name: 🇳🇱 荷兰（感谢关注youtube：8度科技） 3, server: 154.84.1.100, port: 443, type: vmess, uuid: 7c5895e5-97f7-45e9-adc3-004eee90d884, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/292026011205, ws-headers: {Host: www.90859292.xyz}}
+  - {name: 🇳🇱 荷兰（感谢关注youtube：8度科技） 4, server: 154.84.1.106, port: 443, type: vmess, uuid: a8089885-9602-4052-b1a3-1c9e02df635d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.63681459.xyz}}
+  - {name: 🇳🇱 荷兰（感谢关注youtube：8度科技） 5, server: 46.182.107.3, port: 443, type: vmess, uuid: b2aa7a8a-ab88-4c0f-a310-0b9456c69420, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.33960870.xyz}}
+  - {name: 🇨🇳 TW（感谢关注youtube：8度科技）, server: vtwonet-tw-b.qjnodeip.xyz, port: 8300, type: vmess, uuid: 9FC4D03F-A81A-DB13-8547-7F25B4E290A0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇯🇵 JP（感谢关注youtube：8度科技）, server: file.cn-os-qj-down.xyz, port: 443, type: vmess, uuid: cd37d665-98a9-43c4-b0ca-0241d3102164, alterId: 8, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /9a23/, ws-headers: {Host: file.cn-os-qj-down.xyz}}
+  - {name: （感谢关注youtube：8度科技）, server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 6, server: 167.88.63.29, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇭🇰 香港（感谢关注youtube：8度科技）, server: 65.52.164.219, port: 10005, type: trojan, password: bb7fbc2f-bc62-4845-b874-db45d05ddd56, skip-cert-verify: false}
+  - {name: 🇭🇰 香港（感谢关注youtube：8度科技） 2, server: 65.52.164.219, port: 10000, type: trojan, password: bb7fbc2f-bc62-4845-b874-db45d05ddd56, skip-cert-verify: false}
+  - {name: 🇺🇸 US（感谢关注youtube：8度科技）, server: q.blacksheepwall.top, port: 443, type: trojan, password: eb1ef683-690d-4000-bbdf-5a84c55f08ea, sni: q.blacksheepwall.top, skip-cert-verify: false}
+  - {name: 🇨🇳 cn（感谢关注youtube：8度科技）, server: 43.240.206.227, port: 3389, type: trojan, password: ba4fedf8c217c146, skip-cert-verify: false}
+  - {name: （感谢关注youtube：8度科技） 2, server: 120.236.197.205, port: 3389, type: trojan, password: ba4fedf8c217c146, skip-cert-verify: false}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
-      - 🇺🇸 US（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技） 5
-      - 🇺🇸 US（感谢关注youtube：8度科技） 6
-      - 🇺🇸 US（感谢关注youtube：8度科技） 7
-      - 🇺🇸 US（感谢关注youtube：8度科技） 8
-      - 🇺🇸 US（感谢关注youtube：8度科技） 9
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技） 2
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
+      - 🇮🇳 印度（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技） 2
+      - 未知（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技） 4
       - 🇺🇸 美国（感谢关注youtube：8度科技） 5
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 3
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 4
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 5
+      - 🇨🇳 TW（感谢关注youtube：8度科技）
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 11
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 12
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 13
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 14
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 15
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 16
-      - 🇫🇷 美国法国（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技） 2
       - 🇭🇰 香港（感谢关注youtube：8度科技）
       - 🇭🇰 香港（感谢关注youtube：8度科技） 2
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 3
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技）
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 3
-      - 立陶宛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 17
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 18
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 19
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 20
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 21
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 22
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 23
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 24
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 25
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 26
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 27
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 28
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 29
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 30
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 31
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 32
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 33
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 34
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 35
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 36
-      - 瑞典（感谢关注youtube：8度科技）
-      - 瑞典（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 4
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 🇨🇳 cn（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技） 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
-      - 🇺🇸 US（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技） 5
-      - 🇺🇸 US（感谢关注youtube：8度科技） 6
-      - 🇺🇸 US（感谢关注youtube：8度科技） 7
-      - 🇺🇸 US（感谢关注youtube：8度科技） 8
-      - 🇺🇸 US（感谢关注youtube：8度科技） 9
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技） 2
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
+      - 🇮🇳 印度（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技） 2
+      - 未知（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技） 4
       - 🇺🇸 美国（感谢关注youtube：8度科技） 5
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 3
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 4
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 5
+      - 🇨🇳 TW（感谢关注youtube：8度科技）
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 11
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 12
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 13
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 14
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 15
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 16
-      - 🇫🇷 美国法国（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技） 2
       - 🇭🇰 香港（感谢关注youtube：8度科技）
       - 🇭🇰 香港（感谢关注youtube：8度科技） 2
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 3
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技）
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 3
-      - 立陶宛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 17
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 18
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 19
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 20
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 21
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 22
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 23
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 24
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 25
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 26
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 27
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 28
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 29
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 30
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 31
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 32
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 33
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 34
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 35
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 36
-      - 瑞典（感谢关注youtube：8度科技）
-      - 瑞典（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 4
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 🇨🇳 cn（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技） 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
-      - 🇺🇸 US（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技） 5
-      - 🇺🇸 US（感谢关注youtube：8度科技） 6
-      - 🇺🇸 US（感谢关注youtube：8度科技） 7
-      - 🇺🇸 US（感谢关注youtube：8度科技） 8
-      - 🇺🇸 US（感谢关注youtube：8度科技） 9
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技） 2
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
+      - 🇮🇳 印度（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技） 2
+      - 未知（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技） 4
       - 🇺🇸 美国（感谢关注youtube：8度科技） 5
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 3
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 4
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 5
+      - 🇨🇳 TW（感谢关注youtube：8度科技）
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 11
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 12
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 13
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 14
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 15
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 16
-      - 🇫🇷 美国法国（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技） 2
       - 🇭🇰 香港（感谢关注youtube：8度科技）
       - 🇭🇰 香港（感谢关注youtube：8度科技） 2
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 3
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技）
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 3
-      - 立陶宛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 17
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 18
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 19
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 20
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 21
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 22
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 23
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 24
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 25
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 26
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 27
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 28
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 29
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 30
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 31
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 32
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 33
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 34
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 35
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 36
-      - 瑞典（感谢关注youtube：8度科技）
-      - 瑞典（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 4
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 🇨🇳 cn（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技） 2
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🇭🇰 香港（感谢关注youtube：8度科技）
       - 🇭🇰 香港（感谢关注youtube：8度科技） 2
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 3
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 4
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
-      - 🇺🇸 US（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技） 5
-      - 🇺🇸 US（感谢关注youtube：8度科技） 6
-      - 🇺🇸 US（感谢关注youtube：8度科技） 7
-      - 🇺🇸 US（感谢关注youtube：8度科技） 8
-      - 🇺🇸 US（感谢关注youtube：8度科技） 9
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技） 2
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
+      - 🇮🇳 印度（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技） 2
+      - 未知（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技） 4
       - 🇺🇸 美国（感谢关注youtube：8度科技） 5
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 3
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 4
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 5
+      - 🇨🇳 TW（感谢关注youtube：8度科技）
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 11
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 12
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 13
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 14
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 15
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 16
-      - 🇫🇷 美国法国（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技） 2
       - 🇭🇰 香港（感谢关注youtube：8度科技）
       - 🇭🇰 香港（感谢关注youtube：8度科技） 2
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 3
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技）
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 3
-      - 立陶宛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 17
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 18
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 19
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 20
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 21
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 22
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 23
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 24
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 25
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 26
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 27
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 28
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 29
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 30
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 31
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 32
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 33
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 34
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 35
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 36
-      - 瑞典（感谢关注youtube：8度科技）
-      - 瑞典（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 4
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 🇨🇳 cn（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技） 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
-      - 🇺🇸 US（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技） 5
-      - 🇺🇸 US（感谢关注youtube：8度科技） 6
-      - 🇺🇸 US（感谢关注youtube：8度科技） 7
-      - 🇺🇸 US（感谢关注youtube：8度科技） 8
-      - 🇺🇸 US（感谢关注youtube：8度科技） 9
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技） 2
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
+      - 🇮🇳 印度（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技） 2
+      - 未知（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技） 4
       - 🇺🇸 美国（感谢关注youtube：8度科技） 5
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 3
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 4
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 5
+      - 🇨🇳 TW（感谢关注youtube：8度科技）
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 11
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 12
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 13
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 14
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 15
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 16
-      - 🇫🇷 美国法国（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技） 2
       - 🇭🇰 香港（感谢关注youtube：8度科技）
       - 🇭🇰 香港（感谢关注youtube：8度科技） 2
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 3
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技）
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 3
-      - 立陶宛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 17
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 18
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 19
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 20
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 21
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 22
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 23
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 24
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 25
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 26
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 27
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 28
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 29
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 30
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 31
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 32
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 33
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 34
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 35
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 36
-      - 瑞典（感谢关注youtube：8度科技）
-      - 瑞典（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 4
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 🇨🇳 cn（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技） 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
-      - 🇺🇸 US（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技） 5
-      - 🇺🇸 US（感谢关注youtube：8度科技） 6
-      - 🇺🇸 US（感谢关注youtube：8度科技） 7
-      - 🇺🇸 US（感谢关注youtube：8度科技） 8
-      - 🇺🇸 US（感谢关注youtube：8度科技） 9
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技） 2
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
+      - 🇮🇳 印度（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技） 2
+      - 未知（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技） 4
       - 🇺🇸 美国（感谢关注youtube：8度科技） 5
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 3
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 4
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 5
+      - 🇨🇳 TW（感谢关注youtube：8度科技）
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 11
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 12
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 13
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 14
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 15
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 16
-      - 🇫🇷 美国法国（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技） 2
       - 🇭🇰 香港（感谢关注youtube：8度科技）
       - 🇭🇰 香港（感谢关注youtube：8度科技） 2
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 3
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技）
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 3
-      - 立陶宛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 17
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 18
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 19
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 20
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 21
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 22
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 23
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 24
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 25
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 26
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 27
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 28
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 29
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 30
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 31
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 32
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 33
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 34
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 35
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 36
-      - 瑞典（感谢关注youtube：8度科技）
-      - 瑞典（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 4
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 🇨🇳 cn（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技） 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -559,77 +256,34 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技） 2
-      - 🇺🇸 US（感谢关注youtube：8度科技） 3
-      - 🇺🇸 US（感谢关注youtube：8度科技） 4
-      - 🇺🇸 US（感谢关注youtube：8度科技） 5
-      - 🇺🇸 US（感谢关注youtube：8度科技） 6
-      - 🇺🇸 US（感谢关注youtube：8度科技） 7
-      - 🇺🇸 US（感谢关注youtube：8度科技） 8
-      - 🇺🇸 US（感谢关注youtube：8度科技） 9
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技）
-      - 🇷🇺 俄罗斯（感谢关注youtube：8度科技） 2
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技）
-      - 🇫🇮 芬兰（感谢关注youtube：8度科技） 2
-      - 🇰🇷 韩国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技）
+      - 🇬🇧 英国（感谢关注youtube：8度科技） 2
+      - 🇮🇳 印度（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技）
+      - 🇸🇬 新加坡（感谢关注youtube：8度科技） 2
+      - 未知（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技）
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇯🇵 日本（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
       - 🇺🇸 美国（感谢关注youtube：8度科技） 3
       - 🇺🇸 美国（感谢关注youtube：8度科技） 4
       - 🇺🇸 美国（感谢关注youtube：8度科技） 5
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 2
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 3
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 4
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技） 5
+      - 🇨🇳 TW（感谢关注youtube：8度科技）
+      - 🇯🇵 JP（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 8
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 11
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 12
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 13
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 14
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 15
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 16
-      - 🇫🇷 美国法国（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技）
-      - 未知地区（感谢关注youtube：8度科技） 2
       - 🇭🇰 香港（感谢关注youtube：8度科技）
       - 🇭🇰 香港（感谢关注youtube：8度科技） 2
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 3
-      - 🇭🇰 香港（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇫🇷 法国（感谢关注youtube：8度科技）
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 2
-      - 🇫🇷 法国（感谢关注youtube：8度科技） 3
-      - 立陶宛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 17
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 18
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 19
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 20
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 21
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 22
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 23
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 24
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 25
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 26
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 27
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 28
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 29
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 30
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 31
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 32
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 33
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 34
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 35
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 36
-      - 瑞典（感谢关注youtube：8度科技）
-      - 瑞典（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 4
-      - 🇭🇰 HK（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
+      - 🇨🇳 cn（感谢关注youtube：8度科技）
+      - （感谢关注youtube：8度科技） 2
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

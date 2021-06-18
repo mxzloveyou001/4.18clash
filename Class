@@ -5,83 +5,57 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇰🇷 韩国（感谢关注youtube：8度科技）, server: 104.16.148.48, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇰🇷 韩国（感谢关注youtube：8度科技） 2, server: 104.16.149.48, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
-  - {name: 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇲🇾 马来西亚（感谢关注youtube：8度科技）, server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇲🇾 马来西亚（感谢关注youtube：8度科技） 2, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 巴林（感谢关注youtube：8度科技）, server: 15.184.91.216, port: 55435, type: vmess, uuid: 8d81b746-53ce-45c5-b8a4-dec28a0c5a80, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇳🇱 荷兰（感谢关注youtube：8度科技）, server: 193.32.210.230, port: 35870, type: ss, cipher: aes-256-gcm, password: VFqcjsifsjyC}
-  - {name: 欧洲（感谢关注youtube：8度科技）, server: 193.9.114.34, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 欧洲（感谢关注youtube：8度科技） 2, server: 193.9.114.34, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2, server: 195.47.194.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5, server: 195.47.194.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇰🇷 韩国（感谢关注youtube：8度科技）, server: 104.16.149.48, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3, server: 91.90.123.115, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 5, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 6, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 7, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 8, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
   - {name: 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）, server: 208.78.41.198, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）, server: 212.102.44.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2, server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 3, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 4, server: 212.102.44.83, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2, server: 212.102.44.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇩🇪 德国（感谢关注youtube：8度科技）, server: 45.134.224.15, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇩🇪 德国（感谢关注youtube：8度科技） 2, server: 45.134.224.15, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 德国（感谢关注youtube：8度科技） 3, server: 45.134.224.15, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）, server: 5.226.139.149, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
-  - {name: 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 2, server: 5.226.139.149, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 3, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 4, server: 51.195.62.220, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 黑森（感谢关注youtube：8度科技）, server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 US（感谢关注youtube：8度科技）, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）, server: 78.47.219.86, port: 35139, type: ss, cipher: aes-256-gcm, password: vcFINAQlgqZZ}
-  - {name: 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技） 2, server: 78.47.94.207, port: 35139, type: ss, cipher: aes-256-gcm, password: vcFINAQlgqZZ}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）, server: 84.17.35.118, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2, server: 84.17.35.118, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3, server: 84.17.35.118, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4, server: 84.17.35.118, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5, server: 84.17.35.118, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6, server: 84.17.35.118, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7, server: 84.17.35.118, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3, server: 91.90.123.115, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 5, server: 91.90.123.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 6, server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 7, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 8, server: 91.90.123.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 9, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 10, server: 91.90.123.115, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 11, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 12, server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）, server: 212.102.44.83, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）, server: 84.17.35.118, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2, server: 84.17.35.118, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 9, server: 91.90.123.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 10, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3, server: 84.17.35.118, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 11, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
+  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 12, server: 91.90.121.163, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 13, server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 14, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 15, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 16, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 17, server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 18, server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 19, server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 20, server: 91.90.123.115, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 21, server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 22, server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 23, server: 91.90.123.115, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 24, server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 25, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 26, server: 91.90.123.125, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 27, server: 91.90.123.125, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 28, server: 91.90.123.155, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇭🇰 香港（感谢关注youtube：8度科技）, server: guangzhoucm.cdn223.me, port: 958, type: vmess, uuid: b815d9cf-eead-3fc1-8c27-9c1ff3962b69, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hls, ws-headers: {Host: xingazhk1.xiaobaiyun.me}}
-  - {name: 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技）, server: hinet2.welsonal.xyz, port: 443, type: trojan, password: BoqL2LF4awwqpCsA, sni: hinet2.welsonal.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 2, server: hkt2.welsonal.xyz, port: 443, type: trojan, password: 4df3DRWVEefugStR, sni: hkt2.welsonal.xyz, skip-cert-verify: false}
-  - {name: 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 3, server: hkt3.welsonal.xyz, port: 443, type: trojan, password: B1vXvRHAtGIcPE5l, sni: hkt3.welsonal.xyz, skip-cert-verify: false}
-  - {name: 🇯🇵 日本（感谢关注youtube：8度科技）, server: jp1.bingbinghouse.com, port: 443, type: trojan, password: b6nAWUk8cmqRRjxs, sni: jp1.bingbinghouse.com, skip-cert-verify: false}
-  - {name: 🇯🇵 日本（感谢关注youtube：8度科技） 2, server: jp3.bingbinghouse.com, port: 443, type: trojan, password: 4zoU9iC3Q6LrHezl, sni: jp3.bingbinghouse.com, skip-cert-verify: false}
+  - {name: 🇳🇱 荷兰（感谢关注youtube：8度科技）, server: 193.32.210.230, port: 35870, type: ss, cipher: aes-256-gcm, password: VFqcjsifsjyC}
+  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4, server: 84.17.35.118, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
+  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5, server: 84.17.35.118, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6, server: 84.17.35.118, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6}
+  - {name: 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 14, server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd}
+  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7, server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 15, server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
+  - {name: 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2, server: 212.102.44.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 16, server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8, server: 84.17.35.118, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇰🇷 韩国（感谢关注youtube：8度科技） 2, server: 104.16.148.48, port: 443, type: vmess, uuid: 1a54e756-d454-45a0-aefa-e9514e1da1f1, alterId: 1, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /The-Great-Awakening_vws, ws-headers: {Host: vincent-jackson2021.cf}}
+  - {name: 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）, server: 78.47.94.207, port: 35139, type: ss, cipher: aes-256-gcm, password: vcFINAQlgqZZ}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 17, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇩🇪 德国（感谢关注youtube：8度科技）, server: 45.134.224.15, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
+  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3, server: 195.47.194.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 巴林（感谢关注youtube：8度科技）, server: 15.184.91.216, port: 55435, type: vmess, uuid: 8d81b746-53ce-45c5-b8a4-dec28a0c5a80, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇩🇪 德国（感谢关注youtube：8度科技） 2, server: 45.134.224.15, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 欧洲（感谢关注youtube：8度科技）, server: 193.9.114.34, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5, server: 195.47.194.42, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 US（感谢关注youtube：8度科技）, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 18, server: 91.90.123.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 🇩🇪 德国 黑森（感谢关注youtube：8度科技）, server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -89,164 +63,112 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技） 2
-      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 巴林（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
-      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 6
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 8
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 9
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 10
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 11
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 12
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 13
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
+      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 14
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 15
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 16
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
+      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 17
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
+      - 巴林（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 欧洲（感谢关注youtube：8度科技）
+      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 18
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 19
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 20
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 21
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 22
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 23
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 24
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 25
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 26
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 27
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 28
-      - 🇭🇰 香港（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 2
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 3
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
       - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技） 2
-      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 巴林（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
-      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 6
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 8
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 9
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 10
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 11
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 12
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 13
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
+      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 14
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 15
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 16
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
+      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 17
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
+      - 巴林（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 欧洲（感谢关注youtube：8度科技）
+      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 18
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 19
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 20
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 21
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 22
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 23
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 24
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 25
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 26
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 27
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 28
-      - 🇭🇰 香港（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 2
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 3
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -254,90 +176,60 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技） 2
-      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 巴林（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
-      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 6
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 8
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 9
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 10
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 11
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 12
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 13
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
+      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 14
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 15
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 16
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
+      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 17
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
+      - 巴林（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 欧洲（感谢关注youtube：8度科技）
+      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 18
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 19
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 20
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 21
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 22
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 23
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 24
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 25
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 26
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 27
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 28
-      - 🇭🇰 香港（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 2
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 3
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 🇭🇰 香港（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 2
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 3
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
@@ -345,164 +237,112 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技） 2
-      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 巴林（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
-      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 6
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 8
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 9
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 10
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 11
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 12
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 13
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
+      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 14
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 15
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 16
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
+      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 17
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
+      - 巴林（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 欧洲（感谢关注youtube：8度科技）
+      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 18
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 19
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 20
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 21
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 22
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 23
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 24
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 25
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 26
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 27
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 28
-      - 🇭🇰 香港（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 2
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 3
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技） 2
-      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 巴林（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
-      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 6
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 8
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 9
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 10
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 11
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 12
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 13
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
+      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 14
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 15
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 16
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
+      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 17
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
+      - 巴林（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 欧洲（感谢关注youtube：8度科技）
+      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 18
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 19
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 20
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 21
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 22
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 23
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 24
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 25
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 26
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 27
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 28
-      - 🇭🇰 香港（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 2
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 3
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -510,82 +350,56 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技） 2
-      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 巴林（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
-      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 6
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 8
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 9
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 10
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 11
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 12
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 13
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
+      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 14
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 15
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 16
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
+      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 17
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
+      - 巴林（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 欧洲（感谢关注youtube：8度科技）
+      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 18
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 19
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 20
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 21
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 22
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 23
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 24
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 25
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 26
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 27
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 28
-      - 🇭🇰 香港（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 2
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 3
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -602,82 +416,56 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇰🇷 韩国（感谢关注youtube：8度科技）
-      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技）
-      - 🇲🇾 马来西亚（感谢关注youtube：8度科技） 2
-      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 巴林（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
-      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技）
-      - 欧洲（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
-      - 🇩🇪 德国（感谢关注youtube：8度科技）
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
-      - 🇩🇪 德国（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 2
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 3
-      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技） 4
-      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
-      - 🇺🇸 US（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
-      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
-      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 6
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 8
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 9
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 10
+      - 🇺🇸 美国 加利福尼亚 洛杉矶（感谢关注youtube：8度科技） 2
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 11
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 12
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 13
+      - 🇳🇱 荷兰（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 4
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 5
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 6
+      - 🇬🇧 英国 英格兰 布里斯托尔（感谢关注youtube：8度科技）
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 14
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 7
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 15
+      - 🇺🇸 美国 科罗拉多 丹佛（感谢关注youtube：8度科技） 2
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 16
+      - 🇺🇸 美国 纽约 纽约市（感谢关注youtube：8度科技） 8
+      - 🇰🇷 韩国（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国 纽伦堡（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 17
+      - 🇺🇸 美国 乔治亚 亚特兰大（感谢关注youtube：8度科技） 3
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
+      - 🇩🇪 德国（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 3
+      - 巴林（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 4
+      - 🇩🇪 德国（感谢关注youtube：8度科技） 2
+      - 欧洲（感谢关注youtube：8度科技）
+      - 🇮🇳 印度 印多尔（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 5
+      - 🇺🇸 US（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 18
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 19
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 20
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 21
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 22
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 23
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 24
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 25
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 26
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 27
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 28
-      - 🇭🇰 香港（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技）
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 2
-      - 🇭🇰 台湾 鹿港镇（感谢关注youtube：8度科技） 3
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技） 2
+      - 🇬🇧 英国 英格兰 伦敦（感谢关注youtube：8度科技）
+      - 🇩🇪 德国 黑森（感谢关注youtube：8度科技）
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve

@@ -6,34 +6,30 @@ log-level: info
 external-controller: :9090
 proxies:
   - {name: 🇺🇸 美国（感谢关注youtube：8度科技）, server: euserv9p.ezddns.tk, port: 80, type: vmess, uuid: ca870483-fa7d-4f64-983a-6ed455143aca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /live, ws-headers: {Host: euserv9p.ezddns.tk}}
-  - {name: 🇯🇵 日本（感谢关注youtube：8度科技）, server: 54.238.21.12, port: 2222, type: vmess, uuid: 57b9f56f-8f51-3af3-87de-87b6e46b2e17, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 54.238.21.12}}
   - {name: 🇨🇳 台湾（感谢关注youtube：8度科技）, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
   - {name: 🇫🇷 法国（感谢关注youtube：8度科技）, server: 51.195.62.220, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: 🇳🇱 荷兰（感谢关注youtube：8度科技）, server: 89.46.223.239, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇳🇱 荷兰（群友橘子分享的节点）, server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 克罗地亚（感谢关注youtube：8度科技）, server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4, server: 91.90.123.115, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）, server: 91.90.123.115, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2, server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3, server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
   - {name: 🇷🇴 罗马尼亚 布加勒斯特10（群友橘子分享的节点）, server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp}
   - {name: 🇷🇴 罗马尼亚 布加勒斯特5（群友橘子分享的节点）, server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK}
   - {name: 🇷🇴 罗马尼亚 布加勒斯特8（群友橘子分享的节点）, server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）, server: 91.90.123.115, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu}
+  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）, server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 🇷🇴 罗马尼亚7（群友橘子分享的节点）, server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
   - {name: 🇷🇴 罗马尼亚8（群友橘子分享的节点）, server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 2, server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
   - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 3, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 4, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 4, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 5, server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 6, server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 7, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 8, server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 9, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 10, server: 143.244.60.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT}
-  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）, server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2, server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇭🇰 HK（感谢关注youtube：8度科技）, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 7, server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 8, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 美国（感谢关注youtube：8度科技） 9, server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: 🇮🇳 印度（感谢关注youtube：8度科技）, server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 🇬🇧 英国（感谢关注youtube：8度科技）, server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
 proxy-groups:
@@ -43,20 +39,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
       - 🇨🇳 台湾（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇫🇷 法国（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（群友橘子分享的节点）
       - 克罗地亚（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特10（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特5（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特8（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚7（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚8（群友橘子分享的节点）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
@@ -67,10 +63,6 @@ proxy-groups:
       - 🇺🇸 美国（感谢关注youtube：8度科技） 7
       - 🇺🇸 美国（感谢关注youtube：8度科技） 8
       - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
       - 🇮🇳 印度（感谢关注youtube：8度科技）
       - 🇬🇧 英国（感谢关注youtube：8度科技）
   - name: ♻️ 自动选择
@@ -79,20 +71,20 @@ proxy-groups:
     interval: 300
     proxies:
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
       - 🇨🇳 台湾（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇫🇷 法国（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（群友橘子分享的节点）
       - 克罗地亚（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特10（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特5（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特8（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚7（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚8（群友橘子分享的节点）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
@@ -103,10 +95,6 @@ proxy-groups:
       - 🇺🇸 美国（感谢关注youtube：8度科技） 7
       - 🇺🇸 美国（感谢关注youtube：8度科技） 8
       - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
       - 🇮🇳 印度（感谢关注youtube：8度科技）
       - 🇬🇧 英国（感谢关注youtube：8度科技）
   - name: 🌍 国外媒体
@@ -116,20 +104,20 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
       - 🇨🇳 台湾（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇫🇷 法国（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（群友橘子分享的节点）
       - 克罗地亚（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特10（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特5（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特8（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚7（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚8（群友橘子分享的节点）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
@@ -140,10 +128,6 @@ proxy-groups:
       - 🇺🇸 美国（感谢关注youtube：8度科技） 7
       - 🇺🇸 美国（感谢关注youtube：8度科技） 8
       - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
       - 🇮🇳 印度（感谢关注youtube：8度科技）
       - 🇬🇧 英国（感谢关注youtube：8度科技）
   - name: 🌏 国内媒体
@@ -158,20 +142,20 @@ proxy-groups:
       - 🎯 全球直连
       - 🔰 节点选择
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
       - 🇨🇳 台湾（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇫🇷 法国（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（群友橘子分享的节点）
       - 克罗地亚（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特10（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特5（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特8（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚7（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚8（群友橘子分享的节点）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
@@ -182,10 +166,6 @@ proxy-groups:
       - 🇺🇸 美国（感谢关注youtube：8度科技） 7
       - 🇺🇸 美国（感谢关注youtube：8度科技） 8
       - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
       - 🇮🇳 印度（感谢关注youtube：8度科技）
       - 🇬🇧 英国（感谢关注youtube：8度科技）
   - name: 📲 电报信息
@@ -194,20 +174,20 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
       - 🇨🇳 台湾（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇫🇷 法国（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（群友橘子分享的节点）
       - 克罗地亚（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特10（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特5（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特8（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚7（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚8（群友橘子分享的节点）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
@@ -218,10 +198,6 @@ proxy-groups:
       - 🇺🇸 美国（感谢关注youtube：8度科技） 7
       - 🇺🇸 美国（感谢关注youtube：8度科技） 8
       - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
       - 🇮🇳 印度（感谢关注youtube：8度科技）
       - 🇬🇧 英国（感谢关注youtube：8度科技）
   - name: 🍎 苹果服务
@@ -231,20 +207,20 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
       - 🇨🇳 台湾（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇫🇷 法国（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（群友橘子分享的节点）
       - 克罗地亚（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特10（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特5（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特8（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚7（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚8（群友橘子分享的节点）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
@@ -255,10 +231,6 @@ proxy-groups:
       - 🇺🇸 美国（感谢关注youtube：8度科技） 7
       - 🇺🇸 美国（感谢关注youtube：8度科技） 8
       - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
       - 🇮🇳 印度（感谢关注youtube：8度科技）
       - 🇬🇧 英国（感谢关注youtube：8度科技）
   - name: 🎯 全球直连
@@ -277,20 +249,20 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 🇺🇸 美国（感谢关注youtube：8度科技）
-      - 🇯🇵 日本（感谢关注youtube：8度科技）
       - 🇨🇳 台湾（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
-      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇫🇷 法国（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（感谢关注youtube：8度科技）
       - 🇳🇱 荷兰（群友橘子分享的节点）
       - 克罗地亚（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技）
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 2
+      - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 3
       - 🇷🇴 罗马尼亚 布加勒斯特（感谢关注youtube：8度科技） 4
       - 🇷🇴 罗马尼亚 布加勒斯特10（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特5（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特8（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚 布加勒斯特9（群友橘子分享的节点）
+      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
       - 🇷🇴 罗马尼亚7（群友橘子分享的节点）
       - 🇷🇴 罗马尼亚8（群友橘子分享的节点）
       - 🇺🇸 美国（感谢关注youtube：8度科技） 2
@@ -301,10 +273,6 @@ proxy-groups:
       - 🇺🇸 美国（感谢关注youtube：8度科技） 7
       - 🇺🇸 美国（感谢关注youtube：8度科技） 8
       - 🇺🇸 美国（感谢关注youtube：8度科技） 9
-      - 🇺🇸 美国（感谢关注youtube：8度科技） 10
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技）
-      - 🇷🇴 罗马尼亚（感谢关注youtube：8度科技） 2
-      - 🇭🇰 HK（感谢关注youtube：8度科技）
       - 🇮🇳 印度（感谢关注youtube：8度科技）
       - 🇬🇧 英国（感谢关注youtube：8度科技）
 rules:
